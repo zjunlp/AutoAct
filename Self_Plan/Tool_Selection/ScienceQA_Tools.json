@@ -1,0 +1,17 @@
+[
+  {
+    "name": "BingSearch",
+    "definition": "BingSearch engine can search for rich external knowledge on the Internet based on keywords, which can compensate for knowledge fallacy and knowledge outdated.",
+    "usage": "BingSearch[query], which searches the exact detailed query on the Internet and returns the relevant information to the query. Be specific and precise with your query to increase the chances of getting relevant results. For example, Bingsearch[popular dog breeds in the United States]"
+  },
+  {
+    "name": "Retrieve",
+    "definition": "Retrieve additional background knowledge crucial for tackling complex problems. It is especially beneficial for specialized domains like science and mathematics, providing context for the task",
+    "usage": "Retrieve[entity], which retrieves the exact entity on Wikipedia and returns the first paragraph if it exists. If not, it will return some similar entities to retrieve. For example, Retrieve[Milhouse]"
+  },
+  {
+    "name": "Image2Text",
+    "definition": "Image2Text is used to detect words in images convert them into text by OCR and generate captions for images. It is particularly valuable when understanding an image semantically, like identifying objects and interactions in a scene.",
+    "usage": "Image2Text[image], which generates captions for the image and detects words in the image. You are recommended to use it first to get more information about the image to the question. If the question contains an image, it will return the caption and OCR text, else, it will return None. For example, Image2Text[image]."
+  }
+]

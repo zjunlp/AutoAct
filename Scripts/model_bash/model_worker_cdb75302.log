@@ -1,0 +1,503 @@
+2024-02-01 15:37:36 | INFO | model_worker | args: Namespace(host='localhost', port=31021, worker_address='http://localhost:31021', controller_address='http://localhost:21001', model_path='/data/qiaoshuofei/PLMs/13b-chat', revision='main', device='cuda', gpus=None, num_gpus=8, max_gpu_memory='31Gib', dtype='float16', load_8bit=False, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, awq_ckpt=None, awq_wbits=16, awq_groupsize=-1, enable_exllama=False, exllama_max_seq_len=4096, exllama_gpu_split=None, exllama_cache_8bit=False, enable_xft=False, xft_max_seq_len=4096, xft_dtype=None, model_names=['llama-2-13b-chat', 'text-embedding-ada-002'], conv_template=None, embed_in_truncate=False, limit_worker_concurrency=5, stream_interval=2, no_register=False, seed=None, debug=False, ssl=False)
+2024-02-01 15:37:36 | INFO | model_worker | Loading the model ['llama-2-13b-chat', 'text-embedding-ada-002'] on worker cdb75302 ...
+2024-02-01 15:37:36 | ERROR | stderr | Loading checkpoint shards:   0%|                                                                                | 0/3 [00:00<?, ?it/s]
+2024-02-01 15:38:20 | ERROR | stderr | Loading checkpoint shards:  33%|████████████████████████                                                | 1/3 [00:44<01:28, 44.13s/it]
+2024-02-01 15:40:24 | ERROR | stderr | Loading checkpoint shards:  67%|████████████████████████████████████████████████                        | 2/3 [02:47<01:30, 90.98s/it]
+2024-02-01 15:41:25 | ERROR | stderr | Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████| 3/3 [03:48<00:00, 77.31s/it]
+2024-02-01 15:41:25 | ERROR | stderr | Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████| 3/3 [03:48<00:00, 76.32s/it]
+2024-02-01 15:41:25 | ERROR | stderr | 
+2024-02-01 15:41:25 | INFO | model_worker | Register to controller
+2024-02-01 15:41:25 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m45706[0m]
+2024-02-01 15:41:25 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2024-02-01 15:41:25 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2024-02-01 15:41:25 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://localhost:31021[0m (Press CTRL+C to quit)
+2024-02-01 15:42:10 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: None. call_ct: 0. worker_id: cdb75302. 
+2024-02-01 15:42:55 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: None. call_ct: 0. worker_id: cdb75302. 
+2024-02-01 15:43:40 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: None. call_ct: 0. worker_id: cdb75302. 
+2024-02-01 15:44:25 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: None. call_ct: 0. worker_id: cdb75302. 
+2024-02-01 15:45:10 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: None. call_ct: 0. worker_id: cdb75302. 
+2024-02-01 15:45:55 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: None. call_ct: 0. worker_id: cdb75302. 
+2024-02-01 15:46:40 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: None. call_ct: 0. worker_id: cdb75302. 
+2024-02-01 15:47:25 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: None. call_ct: 0. worker_id: cdb75302. 
+2024-02-01 15:47:52 | INFO | stdout | [32mINFO[0m:     ::1:36020 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:47:52 | INFO | stdout | [32mINFO[0m:     ::1:36022 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:47:52 | INFO | stdout | [32mINFO[0m:     ::1:36024 - "[1mPOST /worker_get_conv_template HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:47:56 | INFO | stdout | [32mINFO[0m:     ::1:36026 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:47:56 | INFO | stdout | [32mINFO[0m:     ::1:36058 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:47:56 | INFO | stdout | [32mINFO[0m:     ::1:36060 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:47:57 | INFO | stdout | [32mINFO[0m:     ::1:36062 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:47:59 | INFO | stdout | [32mINFO[0m:     ::1:36110 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:47:59 | INFO | stdout | [32mINFO[0m:     ::1:36112 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:00 | INFO | stdout | [32mINFO[0m:     ::1:36114 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:00 | INFO | stdout | [32mINFO[0m:     ::1:36166 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:00 | INFO | stdout | [32mINFO[0m:     ::1:36168 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:02 | INFO | stdout | [32mINFO[0m:     ::1:36170 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:03 | INFO | stdout | [32mINFO[0m:     ::1:36198 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:03 | INFO | stdout | [32mINFO[0m:     ::1:36200 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:05 | INFO | stdout | [32mINFO[0m:     ::1:36202 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:05 | INFO | stdout | [32mINFO[0m:     ::1:36214 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:05 | INFO | stdout | [32mINFO[0m:     ::1:36216 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:06 | INFO | stdout | [32mINFO[0m:     ::1:36218 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:07 | INFO | stdout | [32mINFO[0m:     ::1:36228 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:07 | INFO | stdout | [32mINFO[0m:     ::1:36230 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:08 | INFO | stdout | [32mINFO[0m:     ::1:36232 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:08 | INFO | stdout | [32mINFO[0m:     ::1:36270 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:08 | INFO | stdout | [32mINFO[0m:     ::1:36272 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:09 | INFO | stdout | [32mINFO[0m:     ::1:36274 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:09 | INFO | stdout | [32mINFO[0m:     ::1:36284 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:09 | INFO | stdout | [32mINFO[0m:     ::1:36286 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:10 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 9. worker_id: cdb75302. 
+2024-02-01 15:48:12 | INFO | stdout | [32mINFO[0m:     ::1:36288 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:12 | INFO | stdout | [32mINFO[0m:     ::1:36338 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:12 | INFO | stdout | [32mINFO[0m:     ::1:36340 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:13 | INFO | stdout | [32mINFO[0m:     ::1:36342 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:15 | INFO | stdout | [32mINFO[0m:     ::1:36384 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:15 | INFO | stdout | [32mINFO[0m:     ::1:36386 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:16 | INFO | stdout | [32mINFO[0m:     ::1:36388 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:16 | INFO | stdout | [32mINFO[0m:     ::1:36400 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:16 | INFO | stdout | [32mINFO[0m:     ::1:36402 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:17 | INFO | stdout | [32mINFO[0m:     ::1:36404 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:19 | INFO | stdout | [32mINFO[0m:     ::1:36418 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:19 | INFO | stdout | [32mINFO[0m:     ::1:36420 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:20 | INFO | stdout | [32mINFO[0m:     ::1:36422 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:20 | INFO | stdout | [32mINFO[0m:     ::1:36446 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:20 | INFO | stdout | [32mINFO[0m:     ::1:36448 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:21 | INFO | stdout | [32mINFO[0m:     ::1:36450 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:21 | INFO | stdout | [32mINFO[0m:     ::1:36474 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:21 | INFO | stdout | [32mINFO[0m:     ::1:36476 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:23 | INFO | stdout | [32mINFO[0m:     ::1:36478 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:23 | INFO | stdout | [32mINFO[0m:     ::1:36520 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:23 | INFO | stdout | [32mINFO[0m:     ::1:36522 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:25 | INFO | stdout | [32mINFO[0m:     ::1:36524 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:25 | INFO | stdout | [32mINFO[0m:     ::1:36534 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:25 | INFO | stdout | [32mINFO[0m:     ::1:36536 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:28 | INFO | stdout | [32mINFO[0m:     ::1:36538 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:28 | INFO | stdout | [32mINFO[0m:     ::1:36578 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:28 | INFO | stdout | [32mINFO[0m:     ::1:36580 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:29 | INFO | stdout | [32mINFO[0m:     ::1:36582 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:29 | INFO | stdout | [32mINFO[0m:     ::1:36592 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:29 | INFO | stdout | [32mINFO[0m:     ::1:36594 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:30 | INFO | stdout | [32mINFO[0m:     ::1:36596 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:30 | INFO | stdout | [32mINFO[0m:     ::1:36606 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:30 | INFO | stdout | [32mINFO[0m:     ::1:36608 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:31 | INFO | stdout | [32mINFO[0m:     ::1:36610 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:33 | INFO | stdout | [32mINFO[0m:     ::1:36652 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:33 | INFO | stdout | [32mINFO[0m:     ::1:36654 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:35 | INFO | stdout | [32mINFO[0m:     ::1:36656 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:35 | INFO | stdout | [32mINFO[0m:     ::1:36698 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:35 | INFO | stdout | [32mINFO[0m:     ::1:36700 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:36 | INFO | stdout | [32mINFO[0m:     ::1:36702 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:37 | INFO | stdout | [32mINFO[0m:     ::1:36732 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:37 | INFO | stdout | [32mINFO[0m:     ::1:36734 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:40 | INFO | stdout | [32mINFO[0m:     ::1:36776 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:40 | INFO | stdout | [32mINFO[0m:     ::1:36778 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:41 | INFO | stdout | [32mINFO[0m:     ::1:36736 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:42 | INFO | stdout | [32mINFO[0m:     ::1:36780 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:42 | INFO | stdout | [32mINFO[0m:     ::1:36796 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:42 | INFO | stdout | [32mINFO[0m:     ::1:36798 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:42 | INFO | stdout | [32mINFO[0m:     ::1:36800 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:42 | INFO | stdout | [32mINFO[0m:     ::1:36814 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:42 | INFO | stdout | [32mINFO[0m:     ::1:36816 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:43 | INFO | stdout | [32mINFO[0m:     ::1:36842 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:43 | INFO | stdout | [32mINFO[0m:     ::1:36844 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:44 | INFO | stdout | [32mINFO[0m:     ::1:36860 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:44 | INFO | stdout | [32mINFO[0m:     ::1:36862 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:44 | INFO | stdout | [32mINFO[0m:     ::1:36876 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:44 | INFO | stdout | [32mINFO[0m:     ::1:36878 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:44 | INFO | stdout | [32mINFO[0m:     ::1:36892 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:44 | INFO | stdout | [32mINFO[0m:     ::1:36894 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:44 | INFO | stdout | [32mINFO[0m:     ::1:36906 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:44 | INFO | stdout | [32mINFO[0m:     ::1:36908 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:44 | INFO | stdout | [32mINFO[0m:     ::1:36920 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:44 | INFO | stdout | [32mINFO[0m:     ::1:36922 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:44 | INFO | stdout | [32mINFO[0m:     ::1:36938 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:45 | INFO | stdout | [32mINFO[0m:     ::1:36940 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:45 | INFO | stdout | [32mINFO[0m:     ::1:36846 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:46 | INFO | stdout | [32mINFO[0m:     ::1:36910 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:46 | INFO | stdout | [32mINFO[0m:     ::1:36818 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:47 | INFO | stdout | [32mINFO[0m:     ::1:36864 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:47 | INFO | stdout | [32mINFO[0m:     ::1:36942 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:47 | INFO | stdout | [32mINFO[0m:     ::1:36990 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:47 | INFO | stdout | [32mINFO[0m:     ::1:36992 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:49 | INFO | stdout | [32mINFO[0m:     ::1:36896 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:49 | INFO | stdout | [32mINFO[0m:     ::1:36880 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:49 | INFO | stdout | [32mINFO[0m:     ::1:36924 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:50 | INFO | stdout | [32mINFO[0m:     ::1:36994 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 15:48:55 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 15:49:40 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 15:50:26 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 15:51:11 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 15:51:56 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 15:52:41 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 15:53:26 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 15:54:11 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 15:54:56 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 15:55:41 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 15:56:26 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 15:57:11 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 15:57:56 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 15:58:41 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 15:59:26 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:00:11 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:00:56 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:01:41 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:02:26 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:03:11 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:03:56 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:04:41 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:05:26 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:06:11 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:06:56 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:07:41 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:08:26 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:09:11 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:09:56 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:10:41 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:11:27 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:12:12 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:12:57 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:13:42 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:14:27 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:15:12 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:15:57 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:16:42 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:17:27 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:18:12 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:18:57 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:19:42 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:20:27 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 34. worker_id: cdb75302. 
+2024-02-01 16:21:07 | INFO | stdout | [32mINFO[0m:     ::1:42796 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:07 | INFO | stdout | [32mINFO[0m:     ::1:42798 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:07 | INFO | stdout | [32mINFO[0m:     ::1:42800 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:07 | INFO | stdout | [32mINFO[0m:     ::1:42810 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:07 | INFO | stdout | [32mINFO[0m:     ::1:42812 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:07 | INFO | stdout | [32mINFO[0m:     ::1:42814 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:07 | INFO | stdout | [32mINFO[0m:     ::1:42824 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:07 | INFO | stdout | [32mINFO[0m:     ::1:42826 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:08 | INFO | stdout | [32mINFO[0m:     ::1:42828 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:08 | INFO | stdout | [32mINFO[0m:     ::1:42838 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:08 | INFO | stdout | [32mINFO[0m:     ::1:42840 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:08 | INFO | stdout | [32mINFO[0m:     ::1:42842 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:08 | INFO | stdout | [32mINFO[0m:     ::1:42852 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:08 | INFO | stdout | [32mINFO[0m:     ::1:42854 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:08 | INFO | stdout | [32mINFO[0m:     ::1:42856 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:08 | INFO | stdout | [32mINFO[0m:     ::1:42866 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:08 | INFO | stdout | [32mINFO[0m:     ::1:42868 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:09 | INFO | stdout | [32mINFO[0m:     ::1:42870 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:09 | INFO | stdout | [32mINFO[0m:     ::1:42880 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:09 | INFO | stdout | [32mINFO[0m:     ::1:42882 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:09 | INFO | stdout | [32mINFO[0m:     ::1:42884 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:09 | INFO | stdout | [32mINFO[0m:     ::1:42894 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:09 | INFO | stdout | [32mINFO[0m:     ::1:42896 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:09 | INFO | stdout | [32mINFO[0m:     ::1:42898 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:09 | INFO | stdout | [32mINFO[0m:     ::1:42908 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:09 | INFO | stdout | [32mINFO[0m:     ::1:42910 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:10 | INFO | stdout | [32mINFO[0m:     ::1:42912 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:10 | INFO | stdout | [32mINFO[0m:     ::1:42922 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:10 | INFO | stdout | [32mINFO[0m:     ::1:42924 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:10 | INFO | stdout | [32mINFO[0m:     ::1:42926 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:10 | INFO | stdout | [32mINFO[0m:     ::1:42936 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:10 | INFO | stdout | [32mINFO[0m:     ::1:42938 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:10 | INFO | stdout | [32mINFO[0m:     ::1:42940 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:11 | INFO | stdout | [32mINFO[0m:     ::1:42950 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:11 | INFO | stdout | [32mINFO[0m:     ::1:42952 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:11 | INFO | stdout | [32mINFO[0m:     ::1:42954 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:11 | INFO | stdout | [32mINFO[0m:     ::1:42964 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:11 | INFO | stdout | [32mINFO[0m:     ::1:42966 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:11 | INFO | stdout | [32mINFO[0m:     ::1:42968 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:11 | INFO | stdout | [32mINFO[0m:     ::1:42978 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:11 | INFO | stdout | [32mINFO[0m:     ::1:42980 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:12 | INFO | stdout | [32mINFO[0m:     ::1:42982 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:12 | INFO | stdout | [32mINFO[0m:     ::1:42994 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:12 | INFO | stdout | [32mINFO[0m:     ::1:42996 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:12 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 49. worker_id: cdb75302. 
+2024-02-01 16:21:12 | INFO | stdout | [32mINFO[0m:     ::1:42998 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:12 | INFO | stdout | [32mINFO[0m:     ::1:43010 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:12 | INFO | stdout | [32mINFO[0m:     ::1:43012 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:13 | INFO | stdout | [32mINFO[0m:     ::1:43014 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:13 | INFO | stdout | [32mINFO[0m:     ::1:43024 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:13 | INFO | stdout | [32mINFO[0m:     ::1:43026 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:13 | INFO | stdout | [32mINFO[0m:     ::1:43028 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:13 | INFO | stdout | [32mINFO[0m:     ::1:43038 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:13 | INFO | stdout | [32mINFO[0m:     ::1:43040 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:13 | INFO | stdout | [32mINFO[0m:     ::1:43042 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:13 | INFO | stdout | [32mINFO[0m:     ::1:43052 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:13 | INFO | stdout | [32mINFO[0m:     ::1:43054 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:14 | INFO | stdout | [32mINFO[0m:     ::1:43056 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:14 | INFO | stdout | [32mINFO[0m:     ::1:43068 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:14 | INFO | stdout | [32mINFO[0m:     ::1:43070 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:14 | INFO | stdout | [32mINFO[0m:     ::1:43072 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:14 | INFO | stdout | [32mINFO[0m:     ::1:43082 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:14 | INFO | stdout | [32mINFO[0m:     ::1:43084 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:15 | INFO | stdout | [32mINFO[0m:     ::1:43086 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:29 | INFO | stdout | [32mINFO[0m:     ::1:43098 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:29 | INFO | stdout | [32mINFO[0m:     ::1:43100 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:30 | INFO | stdout | [32mINFO[0m:     ::1:43102 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:30 | INFO | stdout | [32mINFO[0m:     ::1:43112 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:30 | INFO | stdout | [32mINFO[0m:     ::1:43114 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:30 | INFO | stdout | [32mINFO[0m:     ::1:43116 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:30 | INFO | stdout | [32mINFO[0m:     ::1:43126 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:30 | INFO | stdout | [32mINFO[0m:     ::1:43128 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:30 | INFO | stdout | [32mINFO[0m:     ::1:43130 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:30 | INFO | stdout | [32mINFO[0m:     ::1:43140 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:30 | INFO | stdout | [32mINFO[0m:     ::1:43142 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:30 | INFO | stdout | [32mINFO[0m:     ::1:43144 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:30 | INFO | stdout | [32mINFO[0m:     ::1:43154 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:30 | INFO | stdout | [32mINFO[0m:     ::1:43156 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:31 | INFO | stdout | [32mINFO[0m:     ::1:43158 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:31 | INFO | stdout | [32mINFO[0m:     ::1:43168 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:31 | INFO | stdout | [32mINFO[0m:     ::1:43170 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:31 | INFO | stdout | [32mINFO[0m:     ::1:43172 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:31 | INFO | stdout | [32mINFO[0m:     ::1:43182 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:31 | INFO | stdout | [32mINFO[0m:     ::1:43184 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:31 | INFO | stdout | [32mINFO[0m:     ::1:43186 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:31 | INFO | stdout | [32mINFO[0m:     ::1:43196 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:31 | INFO | stdout | [32mINFO[0m:     ::1:43198 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:32 | INFO | stdout | [32mINFO[0m:     ::1:43200 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:32 | INFO | stdout | [32mINFO[0m:     ::1:43210 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:32 | INFO | stdout | [32mINFO[0m:     ::1:43212 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:32 | INFO | stdout | [32mINFO[0m:     ::1:43214 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:32 | INFO | stdout | [32mINFO[0m:     ::1:43224 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:32 | INFO | stdout | [32mINFO[0m:     ::1:43226 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:32 | INFO | stdout | [32mINFO[0m:     ::1:43228 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:32 | INFO | stdout | [32mINFO[0m:     ::1:43238 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:32 | INFO | stdout | [32mINFO[0m:     ::1:43240 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:33 | INFO | stdout | [32mINFO[0m:     ::1:43242 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:33 | INFO | stdout | [32mINFO[0m:     ::1:43252 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:33 | INFO | stdout | [32mINFO[0m:     ::1:43254 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:33 | INFO | stdout | [32mINFO[0m:     ::1:43256 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:33 | INFO | stdout | [32mINFO[0m:     ::1:43266 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:33 | INFO | stdout | [32mINFO[0m:     ::1:43268 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:34 | INFO | stdout | [32mINFO[0m:     ::1:43270 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:34 | INFO | stdout | [32mINFO[0m:     ::1:43282 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:34 | INFO | stdout | [32mINFO[0m:     ::1:43284 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:34 | INFO | stdout | [32mINFO[0m:     ::1:43286 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:34 | INFO | stdout | [32mINFO[0m:     ::1:43296 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:34 | INFO | stdout | [32mINFO[0m:     ::1:43298 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:34 | INFO | stdout | [32mINFO[0m:     ::1:43300 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:34 | INFO | stdout | [32mINFO[0m:     ::1:43310 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:34 | INFO | stdout | [32mINFO[0m:     ::1:43312 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:36 | INFO | stdout | [32mINFO[0m:     ::1:43314 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:36 | INFO | stdout | [32mINFO[0m:     ::1:43324 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:36 | INFO | stdout | [32mINFO[0m:     ::1:43326 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:36 | INFO | stdout | [32mINFO[0m:     ::1:43328 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:36 | INFO | stdout | [32mINFO[0m:     ::1:43338 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:36 | INFO | stdout | [32mINFO[0m:     ::1:43340 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:36 | INFO | stdout | [32mINFO[0m:     ::1:43342 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:37 | INFO | stdout | [32mINFO[0m:     ::1:43352 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:37 | INFO | stdout | [32mINFO[0m:     ::1:43354 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:37 | INFO | stdout | [32mINFO[0m:     ::1:43356 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:37 | INFO | stdout | [32mINFO[0m:     ::1:43366 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:37 | INFO | stdout | [32mINFO[0m:     ::1:43368 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:37 | INFO | stdout | [32mINFO[0m:     ::1:43370 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:37 | INFO | stdout | [32mINFO[0m:     ::1:43380 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:37 | INFO | stdout | [32mINFO[0m:     ::1:43382 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:38 | INFO | stdout | [32mINFO[0m:     ::1:43384 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:38 | INFO | stdout | [32mINFO[0m:     ::1:43394 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:38 | INFO | stdout | [32mINFO[0m:     ::1:43396 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:38 | INFO | stdout | [32mINFO[0m:     ::1:43398 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:38 | INFO | stdout | [32mINFO[0m:     ::1:43410 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:38 | INFO | stdout | [32mINFO[0m:     ::1:43412 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:39 | INFO | stdout | [32mINFO[0m:     ::1:43414 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:39 | INFO | stdout | [32mINFO[0m:     ::1:43424 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:39 | INFO | stdout | [32mINFO[0m:     ::1:43426 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:39 | INFO | stdout | [32mINFO[0m:     ::1:43428 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:39 | INFO | stdout | [32mINFO[0m:     ::1:43438 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:39 | INFO | stdout | [32mINFO[0m:     ::1:43440 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:40 | INFO | stdout | [32mINFO[0m:     ::1:43442 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:40 | INFO | stdout | [32mINFO[0m:     ::1:43452 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:40 | INFO | stdout | [32mINFO[0m:     ::1:43454 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:40 | INFO | stdout | [32mINFO[0m:     ::1:43456 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:40 | INFO | stdout | [32mINFO[0m:     ::1:43466 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:40 | INFO | stdout | [32mINFO[0m:     ::1:43468 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:41 | INFO | stdout | [32mINFO[0m:     ::1:43470 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:41 | INFO | stdout | [32mINFO[0m:     ::1:43480 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:41 | INFO | stdout | [32mINFO[0m:     ::1:43482 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:42 | INFO | stdout | [32mINFO[0m:     ::1:43484 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:42 | INFO | stdout | [32mINFO[0m:     ::1:43494 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:42 | INFO | stdout | [32mINFO[0m:     ::1:43496 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:42 | INFO | stdout | [32mINFO[0m:     ::1:43498 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:42 | INFO | stdout | [32mINFO[0m:     ::1:43508 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:42 | INFO | stdout | [32mINFO[0m:     ::1:43510 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:43 | INFO | stdout | [32mINFO[0m:     ::1:43512 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:21:57 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 85. worker_id: cdb75302. 
+2024-02-01 16:22:05 | INFO | stdout | [32mINFO[0m:     ::1:43534 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:05 | INFO | stdout | [32mINFO[0m:     ::1:43536 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:05 | INFO | stdout | [32mINFO[0m:     ::1:43538 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:05 | INFO | stdout | [32mINFO[0m:     ::1:43548 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:05 | INFO | stdout | [32mINFO[0m:     ::1:43550 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:05 | INFO | stdout | [32mINFO[0m:     ::1:43552 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:05 | INFO | stdout | [32mINFO[0m:     ::1:43562 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:05 | INFO | stdout | [32mINFO[0m:     ::1:43564 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:05 | INFO | stdout | [32mINFO[0m:     ::1:43566 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:05 | INFO | stdout | [32mINFO[0m:     ::1:43576 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:05 | INFO | stdout | [32mINFO[0m:     ::1:43578 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:06 | INFO | stdout | [32mINFO[0m:     ::1:43580 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:06 | INFO | stdout | [32mINFO[0m:     ::1:43590 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:06 | INFO | stdout | [32mINFO[0m:     ::1:43592 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:06 | INFO | stdout | [32mINFO[0m:     ::1:43594 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:06 | INFO | stdout | [32mINFO[0m:     ::1:43604 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:06 | INFO | stdout | [32mINFO[0m:     ::1:43606 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:06 | INFO | stdout | [32mINFO[0m:     ::1:43608 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:06 | INFO | stdout | [32mINFO[0m:     ::1:43618 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:06 | INFO | stdout | [32mINFO[0m:     ::1:43620 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:07 | INFO | stdout | [32mINFO[0m:     ::1:43622 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:07 | INFO | stdout | [32mINFO[0m:     ::1:43632 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:07 | INFO | stdout | [32mINFO[0m:     ::1:43634 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:07 | INFO | stdout | [32mINFO[0m:     ::1:43636 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:07 | INFO | stdout | [32mINFO[0m:     ::1:43646 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:07 | INFO | stdout | [32mINFO[0m:     ::1:43648 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:07 | INFO | stdout | [32mINFO[0m:     ::1:43650 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:07 | INFO | stdout | [32mINFO[0m:     ::1:43660 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:07 | INFO | stdout | [32mINFO[0m:     ::1:43662 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:08 | INFO | stdout | [32mINFO[0m:     ::1:43664 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:08 | INFO | stdout | [32mINFO[0m:     ::1:43674 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:08 | INFO | stdout | [32mINFO[0m:     ::1:43676 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:08 | INFO | stdout | [32mINFO[0m:     ::1:43678 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:08 | INFO | stdout | [32mINFO[0m:     ::1:43688 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:08 | INFO | stdout | [32mINFO[0m:     ::1:43690 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:09 | INFO | stdout | [32mINFO[0m:     ::1:43692 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:09 | INFO | stdout | [32mINFO[0m:     ::1:43702 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:09 | INFO | stdout | [32mINFO[0m:     ::1:43704 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:09 | INFO | stdout | [32mINFO[0m:     ::1:43706 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:09 | INFO | stdout | [32mINFO[0m:     ::1:43716 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:09 | INFO | stdout | [32mINFO[0m:     ::1:43718 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:09 | INFO | stdout | [32mINFO[0m:     ::1:43720 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:09 | INFO | stdout | [32mINFO[0m:     ::1:43730 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:09 | INFO | stdout | [32mINFO[0m:     ::1:43732 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:10 | INFO | stdout | [32mINFO[0m:     ::1:43734 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:10 | INFO | stdout | [32mINFO[0m:     ::1:43744 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:10 | INFO | stdout | [32mINFO[0m:     ::1:43746 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:10 | INFO | stdout | [32mINFO[0m:     ::1:43748 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:10 | INFO | stdout | [32mINFO[0m:     ::1:43758 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:10 | INFO | stdout | [32mINFO[0m:     ::1:43760 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:11 | INFO | stdout | [32mINFO[0m:     ::1:43762 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:11 | INFO | stdout | [32mINFO[0m:     ::1:43772 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:11 | INFO | stdout | [32mINFO[0m:     ::1:43774 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:11 | INFO | stdout | [32mINFO[0m:     ::1:43776 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:11 | INFO | stdout | [32mINFO[0m:     ::1:43786 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:11 | INFO | stdout | [32mINFO[0m:     ::1:43788 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:12 | INFO | stdout | [32mINFO[0m:     ::1:43790 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:12 | INFO | stdout | [32mINFO[0m:     ::1:43800 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:12 | INFO | stdout | [32mINFO[0m:     ::1:43802 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:12 | INFO | stdout | [32mINFO[0m:     ::1:43804 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:12 | INFO | stdout | [32mINFO[0m:     ::1:43814 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:12 | INFO | stdout | [32mINFO[0m:     ::1:43816 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:12 | INFO | stdout | [32mINFO[0m:     ::1:43818 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:12 | INFO | stdout | [32mINFO[0m:     ::1:43828 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:12 | INFO | stdout | [32mINFO[0m:     ::1:43830 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:13 | INFO | stdout | [32mINFO[0m:     ::1:43832 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:13 | INFO | stdout | [32mINFO[0m:     ::1:43842 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:13 | INFO | stdout | [32mINFO[0m:     ::1:43844 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:13 | INFO | stdout | [32mINFO[0m:     ::1:43846 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:13 | INFO | stdout | [32mINFO[0m:     ::1:43856 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:13 | INFO | stdout | [32mINFO[0m:     ::1:43858 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:14 | INFO | stdout | [32mINFO[0m:     ::1:43860 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:14 | INFO | stdout | [32mINFO[0m:     ::1:43878 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:14 | INFO | stdout | [32mINFO[0m:     ::1:43880 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:14 | INFO | stdout | [32mINFO[0m:     ::1:43882 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:14 | INFO | stdout | [32mINFO[0m:     ::1:43892 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:14 | INFO | stdout | [32mINFO[0m:     ::1:43894 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:15 | INFO | stdout | [32mINFO[0m:     ::1:43896 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:15 | INFO | stdout | [32mINFO[0m:     ::1:43906 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:15 | INFO | stdout | [32mINFO[0m:     ::1:43908 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:15 | INFO | stdout | [32mINFO[0m:     ::1:43910 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:16 | INFO | stdout | [32mINFO[0m:     ::1:43920 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:16 | INFO | stdout | [32mINFO[0m:     ::1:43922 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:16 | INFO | stdout | [32mINFO[0m:     ::1:43924 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:16 | INFO | stdout | [32mINFO[0m:     ::1:43934 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:16 | INFO | stdout | [32mINFO[0m:     ::1:43936 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:17 | INFO | stdout | [32mINFO[0m:     ::1:43938 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:17 | INFO | stdout | [32mINFO[0m:     ::1:43948 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:17 | INFO | stdout | [32mINFO[0m:     ::1:43950 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:17 | INFO | stdout | [32mINFO[0m:     ::1:43952 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:17 | INFO | stdout | [32mINFO[0m:     ::1:43962 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:17 | INFO | stdout | [32mINFO[0m:     ::1:43964 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:17 | INFO | stdout | [32mINFO[0m:     ::1:43966 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:17 | INFO | stdout | [32mINFO[0m:     ::1:43976 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:17 | INFO | stdout | [32mINFO[0m:     ::1:43978 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:18 | INFO | stdout | [32mINFO[0m:     ::1:43980 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:18 | INFO | stdout | [32mINFO[0m:     ::1:43990 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:18 | INFO | stdout | [32mINFO[0m:     ::1:43992 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:18 | INFO | stdout | [32mINFO[0m:     ::1:43994 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:18 | INFO | stdout | [32mINFO[0m:     ::1:44004 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:18 | INFO | stdout | [32mINFO[0m:     ::1:44006 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:18 | INFO | stdout | [32mINFO[0m:     ::1:44008 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:18 | INFO | stdout | [32mINFO[0m:     ::1:44018 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:18 | INFO | stdout | [32mINFO[0m:     ::1:44020 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:19 | INFO | stdout | [32mINFO[0m:     ::1:44022 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:19 | INFO | stdout | [32mINFO[0m:     ::1:44032 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:19 | INFO | stdout | [32mINFO[0m:     ::1:44034 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:19 | INFO | stdout | [32mINFO[0m:     ::1:44036 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:19 | INFO | stdout | [32mINFO[0m:     ::1:44048 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:19 | INFO | stdout | [32mINFO[0m:     ::1:44050 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:19 | INFO | stdout | [32mINFO[0m:     ::1:44052 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:19 | INFO | stdout | [32mINFO[0m:     ::1:44062 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:19 | INFO | stdout | [32mINFO[0m:     ::1:44064 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:20 | INFO | stdout | [32mINFO[0m:     ::1:44066 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:20 | INFO | stdout | [32mINFO[0m:     ::1:44076 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:20 | INFO | stdout | [32mINFO[0m:     ::1:44078 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:20 | INFO | stdout | [32mINFO[0m:     ::1:44080 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:20 | INFO | stdout | [32mINFO[0m:     ::1:44090 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:20 | INFO | stdout | [32mINFO[0m:     ::1:44092 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:20 | INFO | stdout | [32mINFO[0m:     ::1:44094 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:20 | INFO | stdout | [32mINFO[0m:     ::1:44104 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:20 | INFO | stdout | [32mINFO[0m:     ::1:44106 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:21 | INFO | stdout | [32mINFO[0m:     ::1:44108 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:21 | INFO | stdout | [32mINFO[0m:     ::1:44118 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:21 | INFO | stdout | [32mINFO[0m:     ::1:44120 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:21 | INFO | stdout | [32mINFO[0m:     ::1:44122 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:21 | INFO | stdout | [32mINFO[0m:     ::1:44132 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:21 | INFO | stdout | [32mINFO[0m:     ::1:44134 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:21 | INFO | stdout | [32mINFO[0m:     ::1:44136 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:21 | INFO | stdout | [32mINFO[0m:     ::1:44146 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:21 | INFO | stdout | [32mINFO[0m:     ::1:44148 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:22 | INFO | stdout | [32mINFO[0m:     ::1:44150 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:22 | INFO | stdout | [32mINFO[0m:     ::1:44160 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:22 | INFO | stdout | [32mINFO[0m:     ::1:44162 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:22 | INFO | stdout | [32mINFO[0m:     ::1:44164 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:22 | INFO | stdout | [32mINFO[0m:     ::1:44174 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:22 | INFO | stdout | [32mINFO[0m:     ::1:44176 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:23 | INFO | stdout | [32mINFO[0m:     ::1:44178 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:23 | INFO | stdout | [32mINFO[0m:     ::1:44188 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:23 | INFO | stdout | [32mINFO[0m:     ::1:44190 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:23 | INFO | stdout | [32mINFO[0m:     ::1:44192 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:23 | INFO | stdout | [32mINFO[0m:     ::1:44202 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:23 | INFO | stdout | [32mINFO[0m:     ::1:44204 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:24 | INFO | stdout | [32mINFO[0m:     ::1:44206 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:22:42 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 133. worker_id: cdb75302. 
+2024-02-01 16:23:27 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 133. worker_id: cdb75302. 
+2024-02-01 16:23:56 | INFO | stdout | [32mINFO[0m:     ::1:44272 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:56 | INFO | stdout | [32mINFO[0m:     ::1:44274 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:57 | INFO | stdout | [32mINFO[0m:     ::1:44276 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:57 | INFO | stdout | [32mINFO[0m:     ::1:44286 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:57 | INFO | stdout | [32mINFO[0m:     ::1:44288 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:57 | INFO | stdout | [32mINFO[0m:     ::1:44290 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:57 | INFO | stdout | [32mINFO[0m:     ::1:44300 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:57 | INFO | stdout | [32mINFO[0m:     ::1:44302 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:57 | INFO | stdout | [32mINFO[0m:     ::1:44304 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:57 | INFO | stdout | [32mINFO[0m:     ::1:44314 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:57 | INFO | stdout | [32mINFO[0m:     ::1:44316 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:57 | INFO | stdout | [32mINFO[0m:     ::1:44318 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:57 | INFO | stdout | [32mINFO[0m:     ::1:44328 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:57 | INFO | stdout | [32mINFO[0m:     ::1:44330 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:58 | INFO | stdout | [32mINFO[0m:     ::1:44332 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:58 | INFO | stdout | [32mINFO[0m:     ::1:44342 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:58 | INFO | stdout | [32mINFO[0m:     ::1:44344 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:58 | INFO | stdout | [32mINFO[0m:     ::1:44346 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:58 | INFO | stdout | [32mINFO[0m:     ::1:44356 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:58 | INFO | stdout | [32mINFO[0m:     ::1:44358 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:58 | INFO | stdout | [32mINFO[0m:     ::1:44360 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:58 | INFO | stdout | [32mINFO[0m:     ::1:44370 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:58 | INFO | stdout | [32mINFO[0m:     ::1:44372 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:59 | INFO | stdout | [32mINFO[0m:     ::1:44374 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:59 | INFO | stdout | [32mINFO[0m:     ::1:44386 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:59 | INFO | stdout | [32mINFO[0m:     ::1:44388 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:23:59 | INFO | stdout | [32mINFO[0m:     ::1:44390 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2024-02-01 16:24:12 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 142. worker_id: cdb75302. 
+2024-02-01 16:24:57 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 142. worker_id: cdb75302. 
+2024-02-01 16:25:42 | INFO | model_worker | Send heart beat. Models: ['llama-2-13b-chat', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 142. worker_id: cdb75302. 
+2024-02-01 16:25:49 | ERROR | stderr | [32mINFO[0m:     Shutting down
+2024-02-01 16:25:49 | ERROR | stderr | [32mINFO[0m:     Waiting for application shutdown.
+2024-02-01 16:25:49 | ERROR | stderr | [32mINFO[0m:     Application shutdown complete.
+2024-02-01 16:25:49 | ERROR | stderr | [32mINFO[0m:     Finished server process [[36m45706[0m]

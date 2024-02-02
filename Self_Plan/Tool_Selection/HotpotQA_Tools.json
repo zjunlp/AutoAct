@@ -1,0 +1,17 @@
+[
+  {
+    "name": "BingSearch",
+    "definition": "BingSearch engine can search for rich external knowledge on the Internet based on keywords, which can compensate for knowledge fallacy and knowledge outdated.",
+    "usage": "BingSearch[query], which searches the exact detailed query on the Internet and returns the relevant information to the query. Be specific and precise with your query to increase the chances of getting relevant results. For example, Bingsearch[popular dog breeds in the United States]"
+  },
+  {
+    "name": "Retrieve",
+    "definition": "Retrieve additional background knowledge crucial for tackling complex problems. It is especially beneficial for specialized domains like science and mathematics, providing context for the task",
+    "usage": "Retrieve[entity], which retrieves the exact entity on Wikipedia and returns the first paragraph if it exists. If not, it will return some similar entities to retrieve. For example, Retrieve[Milhouse]"
+  },
+  {
+    "name": "Lookup",
+    "definition": "A Lookup Tool returns the next sentence containing the target string in the page from the search tool (like BingSearch or Retrieve),so it is recommended to use with Bingsearch and Retrieve, simulating Ctrl+F functionality on the browser to find target answer.",
+    "usage": "Lookup[keyword], which returns the next sentence containing the keyword in the last passage successfully found by Retrieve or BingSearch. For example, Lookup[river]."
+  }
+]

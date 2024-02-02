@@ -1,0 +1,37 @@
+2024-01-28 15:26:19 | INFO | model_worker | args: Namespace(host='localhost', port=31021, worker_address='http://localhost:31021', controller_address='http://localhost:21001', model_path='/data/qiaoshuofei/PLMs/13b-chat', revision='main', device='cuda', gpus=None, num_gpus=1, max_gpu_memory='31Gib', dtype='float16', load_8bit=False, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, awq_ckpt=None, awq_wbits=16, awq_groupsize=-1, enable_exllama=False, exllama_max_seq_len=4096, exllama_gpu_split=None, exllama_cache_8bit=False, enable_xft=False, xft_max_seq_len=4096, xft_dtype=None, model_names=['llama-2-7b-chat'], conv_template=None, embed_in_truncate=False, limit_worker_concurrency=5, stream_interval=2, no_register=False, seed=None, debug=False, ssl=False)
+2024-01-28 15:26:19 | INFO | model_worker | Loading the model ['llama-2-7b-chat'] on worker 8ac9cb6c ...
+2024-01-28 15:26:19 | ERROR | stderr | Loading checkpoint shards:   0%|                                                                                             | 0/3 [00:00<?, ?it/s]
+2024-01-28 15:26:26 | ERROR | stderr | Loading checkpoint shards:  33%|████████████████████████████▎                                                        | 1/3 [00:06<00:12,  6.29s/it]
+2024-01-28 15:26:32 | ERROR | stderr | Loading checkpoint shards:  67%|████████████████████████████████████████████████████████▋                            | 2/3 [00:12<00:06,  6.29s/it]
+2024-01-28 15:26:36 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:16<00:00,  5.19s/it]
+2024-01-28 15:26:36 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:16<00:00,  5.48s/it]
+2024-01-28 15:26:36 | ERROR | stderr | 
+2024-01-28 15:26:43 | ERROR | stderr | Traceback (most recent call last):
+2024-01-28 15:26:43 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+2024-01-28 15:26:43 | ERROR | stderr |     return _run_code(code, main_globals, None,
+2024-01-28 15:26:43 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/runpy.py", line 87, in _run_code
+2024-01-28 15:26:43 | ERROR | stderr |     exec(code, run_globals)
+2024-01-28 15:26:43 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/fastchat/serve/model_worker.py", line 375, in <module>
+2024-01-28 15:26:43 | ERROR | stderr |     args, worker = create_model_worker()
+2024-01-28 15:26:43 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/fastchat/serve/model_worker.py", line 346, in create_model_worker
+2024-01-28 15:26:43 | ERROR | stderr |     worker = ModelWorker(
+2024-01-28 15:26:43 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/fastchat/serve/model_worker.py", line 77, in __init__
+2024-01-28 15:26:43 | ERROR | stderr |     self.model, self.tokenizer = load_model(
+2024-01-28 15:26:43 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/fastchat/model/model_adapter.py", line 362, in load_model
+2024-01-28 15:26:43 | ERROR | stderr |     model.to(device)
+2024-01-28 15:26:43 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/transformers/modeling_utils.py", line 2460, in to
+2024-01-28 15:26:43 | ERROR | stderr |     return super().to(*args, **kwargs)
+2024-01-28 15:26:43 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1145, in to
+2024-01-28 15:26:43 | ERROR | stderr |     return self._apply(convert)
+2024-01-28 15:26:43 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/torch/nn/modules/module.py", line 797, in _apply
+2024-01-28 15:26:43 | ERROR | stderr |     module._apply(fn)
+2024-01-28 15:26:43 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/torch/nn/modules/module.py", line 797, in _apply
+2024-01-28 15:26:43 | ERROR | stderr |     module._apply(fn)
+2024-01-28 15:26:43 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/torch/nn/modules/module.py", line 797, in _apply
+2024-01-28 15:26:43 | ERROR | stderr |     module._apply(fn)
+2024-01-28 15:26:43 | ERROR | stderr |   [Previous line repeated 2 more times]
+2024-01-28 15:26:43 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/torch/nn/modules/module.py", line 820, in _apply
+2024-01-28 15:26:43 | ERROR | stderr |     param_applied = fn(param)
+2024-01-28 15:26:43 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1143, in convert
+2024-01-28 15:26:43 | ERROR | stderr |     return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+2024-01-28 15:26:43 | ERROR | stderr | torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 136.00 MiB (GPU 0; 31.75 GiB total capacity; 23.27 GiB already allocated; 8.94 MiB free; 23.28 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

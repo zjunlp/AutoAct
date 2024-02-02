@@ -1,0 +1,72 @@
+[
+    {
+        "Question": "Which of these states is farthest north?\nOptions: (A) West Virginia (B) Louisiana (C) Arizona (D) Oklahoma",
+        "caption": "An aerial view of a painting of a forest.",
+        "orc": "[([[307, 253], [361, 253], [361, 265], [307, 265]], 'Oklahoma', 0.7105310102042172), ([[623, 261], [691, 261], [691, 275], [623, 275]], 'West Virginia', 0.9675798036138213), ([[153, 281], [193, 281], [193, 293], [153, 293]], 'Arizona', 0.9426240560831896), ([[365, 319], [419, 319], [419, 333], [365, 333]], 'Louisiana', 0.9964687228131679)]",
+        "Answer": "A. West Virginia",
+        "metadata": {
+            "has_image": true,
+            "grade": 2,
+            "subject": "social science",
+            "topic": "geography",
+            "category": "Geography",
+            "skill": "Read a map: cardinal directions"
+        }
+    },
+    {
+        "Question": "Identify the question that Tom and Justin's experiment can best answer.\n\nContext: The passage below describes an experiment. Read the passage and then follow the instructions below.\n\nTom placed a ping pong ball in a catapult, pulled the catapult's arm back to a 45\u00b0 angle, and launched the ball. Then, Tom launched another ping pong ball, this time pulling the catapult's arm back to a 30\u00b0 angle. With each launch, his friend Justin measured the distance between the catapult and the place where the ball hit the ground. Tom and Justin repeated the launches with ping pong balls in four more identical catapults. They compared the distances the balls traveled when launched from a 45\u00b0 angle to the distances the balls traveled when launched from a 30\u00b0 angle.\nFigure: a catapult for launching ping pong balls.\n\nOptions: (A) Do ping pong balls stop rolling along the ground sooner after being launched from a 30\u00b0 angle or a 45\u00b0 angle? (B) Do ping pong balls travel farther when launched from a 30\u00b0 angle compared to a 45\u00b0 angle?",
+        "caption": "A wooden board with a wooden head on top of it.",
+        "orc": "[]",
+        "Answer": "B. Do ping pong balls travel farther when launched from a 30\u00b0 angle compared to a 45\u00b0 angle?",
+        "metadata": {
+            "has_image": true,
+            "grade": 8,
+            "subject": "natural science",
+            "topic": "science-and-engineering-practices",
+            "category": "Designing experiments",
+            "skill": "Identify the experimental question"
+        }
+    },
+    {
+        "Question": "Identify the question that Kathleen and Bryant's experiment can best answer.\n\nContext: The passage below describes an experiment. Read the passage and then follow the instructions below.\n\nKathleen applied a thin layer of wax to the underside of her snowboard and rode the board straight down a hill. Then, she removed the wax and rode the snowboard straight down the hill again. She repeated the rides four more times, alternating whether she rode with a thin layer of wax on the board or not. Her friend Bryant timed each ride. Kathleen and Bryant calculated the average time it took to slide straight down the hill on the snowboard with wax compared to the average time on the snowboard without wax.\nFigure: snowboarding down a hill.\n\nOptions: (A) Does Kathleen's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax? (B) Does Kathleen's snowboard slide down a hill in less time when it has a thin layer of wax or a thick layer of wax?",
+        "caption": "A man riding skis down a snow covered slope.",
+        "orc": "[]",
+        "Answer": "A. Does Kathleen's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?",
+        "metadata": {
+            "has_image": true,
+            "grade": 7,
+            "subject": "natural science",
+            "topic": "science-and-engineering-practices",
+            "category": "Designing experiments",
+            "skill": "Identify the experimental question"
+        }
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nSing, O goddess, the anger of Achilles son of Peleus, that brought countless ills upon the Achaeans.\n\u2014Homer, The Iliad\n\nOptions: (A) chiasmus (B) apostrophe",
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B. apostrophe",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify the figure of speech: anaphora, antithesis, apostrophe, assonance, chiasmus, understatement"
+        }
+    },
+    {
+        "Question": "Which of the following could Gordon's test show?\n\nContext: People can use the engineering-design process to develop solutions to problems. One step in the process is testing if a potential solution meets the requirements of the design.\nThe passage below describes how the engineering-design process was used to test a solution to a problem. Read the passage. Then answer the question below.\n\nGordon was an aerospace engineer who was developing a parachute for a spacecraft that would land on Mars. He needed to add a vent at the center of the parachute so the spacecraft would land smoothly. However, the spacecraft would have to travel at a high speed before landing. If the vent was too big or too small, the parachute might swing wildly at this speed. The movement could damage the spacecraft.\nSo, to help decide how big the vent should be, Gordon put a parachute with a 1 m vent in a wind tunnel. The wind tunnel made it seem like the parachute was moving at 200 km per hour. He observed the parachute to see how much it swung.\nFigure: a spacecraft's parachute in a wind tunnel.\n\nOptions: (A) if the spacecraft was damaged when using a parachute with a 1 m vent going 200 km per hour (B) how steady a parachute with a 1 m vent was at 200 km per hour (C) whether a parachute with a 1 m vent would swing too much at 400 km per hour",
+        "caption": "A large white kite is in the air.",
+        "orc": "[]",
+        "Answer": "B. how steady a parachute with a 1 m vent was at 200 km per hour",
+        "metadata": {
+            "has_image": true,
+            "grade": 8,
+            "subject": "natural science",
+            "topic": "science-and-engineering-practices",
+            "category": "Engineering practices",
+            "skill": "Evaluate tests of engineering-design solutions"
+        }
+    }
+]

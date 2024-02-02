@@ -1,0 +1,231 @@
+{
+    "Question": "What is the process by which plants produce their own food using sunlight, water, and carbon dioxide?\n\nOptions: (A) Respiration (B) Photosynthesis (C) Transpiration (D) Fermentation\n\nCaption: A beautiful green plant with leaves and flowers, growing in a sunny garden.\n\nOcr: Plant, sunlight, water, carbon dioxide, chlorophyll, cellular respiration\n\nAnswer: B. Photosynthesis\n\nQuestion: What is the term used to describe the movement of tectonic plates that results in the formation of mountains?\n\nOptions: (A) Weathering (B) Erosion (C) Plate Tectonics (D) Continental Drift\n\nCaption: A towering mountain range with snow-capped peaks, surrounded by lush green forests.\n\nOcr: Mountain, tectonic plates, convergent boundary, subduction, volcano\n\nAnswer: C. Plate Tectonics\n\nQuestion: What is the process by which water moves through a plant, from the roots to the leaves, and is then released into the air as water vapor?\n\nOptions: (A) Transpiration (B) Respiration (C) Photosynthesis (D) Evaporation\n\nCaption: A plant with leaves and roots, with water droplets on the leaves.\n\nOcr: Plant, water, roots, leaves, stomata, xylem, phloem\n\nAnswer: A. Transpiration\n\nQuestion: What is the scientific term for the fear of long words?\n\nOptions: (A) Sesquipedalophobia (B) Hippopotomonstrosesquipedaliophobia (C) Pneumonoultramicroscopicsilicovolcanoconiosis (D) Gigil\n\nCaption: A person looking worried or frightened, with a large dictionary or thesaurus nearby.\n\nOcr: Word, fear, dictionary, thesaurus, phobia, linguistics\n\nAnswer: A. Sesquipedalophobia\n\nQuestion: What is the process by which an organism's genetic information is passed from one generation to the next?\n",
+    "Options": "(A) Genetic Drift (B) Gene Flow (C) Mutation (D) Meiosis\n",
+    "Caption": "A group of chromosomes arranged in a ladder-like structure, with genetic information displayed on each rung.\n",
+    "Ocr": "Chromosome, gene, genetic information, DNA, RNA, inheritance\n",
+    "Answer": "D. Meiosis"
+}{
+    "Question": "What is the process by which plants produce their own food through photosynthesis?\n\nOptions: (A) Respiration (B) Fermentation (C) Photosynthesis (D) Transpiration\n\nCaption: A plant with its leaves exposed to sunlight\nOcr: Photosynthesis, respiration, fermentation, transpiration\n\nAnswer: C. Photosynthesis\n\nQuestion: What is the term used to describe the movement of tectonic plates?\n\nOptions: (A) Weathering (B) Erosion (C) Plate Tectonics (D) Geology\n\nCaption: A diagram showing the movement of tectonic plates\nOcr: Plate tectonics, weathering, erosion, geology\n\nAnswer: C. Plate Tectonics\n\nQuestion: What is the process by which water moves through a plant, from the roots to the leaves, and is then released into the air as water vapor?\n\nOptions: (A) Respiration (B) Transpiration (C) Photosynthesis (D) Evaporation\n\nCaption: A plant with water droplets on its leaves\nOcr: Transpiration, respiration, photosynthesis, evaporation\n\nAnswer: B. Transpiration\n\nQuestion: What is the term used to describe the process by which an organism's genetic information is passed from one generation to the next?\n\nOptions: (A) Genetics (B) Inheritance (C) Evolution (D) Mutation\n\nCaption: A diagram showing the inheritance of traits from parents to offspring\nOcr: Genetics, inheritance, evolution, mutation\n\nAnswer: B. Inheritance\n\nQuestion: What is the term used to describe the process by which a species adapts to its environment over time?\n",
+    "Options": "(A) Evolution (B) Adaptation (C) Migration (D) Hibernation\n",
+    "Caption": "A species of bird with its feathers adapted to blend in with its surroundings",
+    "Ocr": "Evolution, adaptation, migration, hibernation\n",
+    "Answer": "B. Adaptation"
+}{
+    "Question": "Which of the following is NOT a characteristic of a virus?",
+    "Options": "(A) It can replicate inside a host cell (B) It has a cell membrane (C) It can be treated with antibiotics (D) It can be transmitted through the air",
+    "Ocr": "Virus,cell membrane,antibiotics,air",
+    "Caption": "An illustration of a virus",
+    "Answer": "B. It has a cell membrane"
+}{
+    "Question": "What is the process by which plants make their own food?",
+    "Options": "(A) Respiration (B) Photosynthesis (C) Decomposition (D) Fermentation",
+    "Ocr": "Photosynthesis,Respiration,Decomposition,Fermentation",
+    "Caption": "A plant growing in the sun",
+    "Answer": "B. Photosynthesis"
+}{
+    "Question": "What is the largest planet in our solar system?",
+    "Options": "(A) Earth (B) Saturn (C) Jupiter (D) Uranus",
+    "Ocr": "Jupiter,Saturn,Earth,Uranus",
+    "Caption": "A diagram of the solar system",
+    "Answer": "C. Jupiter"
+}{
+    "Question": "What is the process by which water moves through a plant, from the roots to the leaves?",
+    "Options": "(A) Transpiration (B) Respiration (C) Photosynthesis (D) Xylem",
+    "Ocr": "Transpiration,Respiration,Photosynthesis,Xylem",
+    "Caption": "A cross-section of a plant stem",
+    "Answer": "A. Transpiration"
+}{
+    "Question": "Which of the following is an example of a producer in an ecosystem?",
+    "Options": "(A) Mouse (B) Hawk (C) Grass (D) Sun",
+    "Ocr": "Mouse,Hawk,Grass,Sun",
+    "Caption": "A food chain diagram",
+    "Answer": "C. Grass"
+}{
+    "Question": "What is the term for the process of water moving through a plant, from the roots to the leaves, and is then released into the air as water vapor?",
+    "Options": [
+        "(A) Respiration",
+        "(B) Transpiration",
+        "(C) Photosynthesis",
+        "(D) Evaporation",
+        "Caption: An illustration of a plant's leaves, with water droplets on the surface."
+    ],
+    "Ocr": [
+        "Transpiration",
+        "Photosynthesis",
+        "Evaporation",
+        "Respiration\nAnswer: B. Transpiration\nQuestion: What is the name of the scientific theory that explains how the universe began as a single point and expanded rapidly around 13.8 billion years ago?\nOptions:\n(A) The Big Bang Theory\n(B) The Theory of Evolution\n(C) The Theory of Plate Tectonics\n(D) The Theory of Relativity"
+    ],
+    "Caption": "An illustration of the Big Bang, with a single point expanding rapidly into a universe.\nOcr: Big Bang,Evolution,Plate Tectonics,Relativity",
+    "Answer": "A. The Big Bang Theory"
+}{
+    "Question": "What is the term for the process by which an organism's genetic information is passed from one generation to the next?",
+    "Options": [
+        "A) Mutation",
+        "B) Evolution",
+        "C) Genetic drift",
+        "D) Heredity",
+        "Caption: A diagram showing the inheritance of traits from parents to offspring."
+    ],
+    "Ocr": [
+        "Heredity",
+        "genetic information",
+        "generation",
+        "mutation",
+        "evolution",
+        "genetic drift",
+        "traits",
+        "parents",
+        "offspring\nAnswer: D) Heredity\nQuestion: What is the term for the movement of tectonic plates that results in the creation of mountain ranges?\nOptions:\nA) Continental drift\nB) Plate tectonics\nC) Sea-floor spreading\nD) Orogenesis"
+    ],
+    "Caption": "A diagram showing the movement of tectonic plates and the formation of mountain ranges.\nOcr: Orogenesis,tectonic plates,mountain ranges,continental drift,plate tectonics,sea-floor spreading",
+    "Answer": "D) Orogenesis"
+}{
+    "Question": "Which of the following is an example of a producer in an ecosystem?",
+    "Options": [
+        "(A) Hawk (B) Grass (C) Deer (D) Bacteria"
+    ],
+    "Ocr": [
+        "Hawk",
+        "Grass",
+        "Deer",
+        "Bacteria"
+    ],
+    "Caption": "A food chain diagram.",
+    "Answer": "B. Grass"
+}{
+    "Question": "What is the difference between a hypothesis and a theory in science?",
+    "Options": [
+        "A) A hypothesis is a proven fact, while a theory is a speculative idea",
+        "B) A hypothesis is a speculative idea, while a theory is a proven fact",
+        "C) A hypothesis is a prediction, while a theory is an explanation",
+        "D) A hypothesis is an explanation, while a theory is a prediction",
+        "Caption: A diagram illustrating the scientific method"
+    ],
+    "Ocr": [
+        "hypothesis",
+        "theory",
+        "scientific method",
+        "prediction",
+        "explanation\nAnswer: C) A hypothesis is a prediction",
+        "while a theory is an explanation\nQuestion: What is the process of genetic mutation?\nOptions:\nA) A change in the DNA sequence that can occur spontaneously or through environmental factors\nB) A change in the RNA sequence that can occur spontaneously or through environmental factors\nC) A change in the protein sequence that can occur spontaneously or through environmental factors\nD) A change in the cell membrane that can occur spontaneously or through environmental factors"
+    ],
+    "Caption": "An image of DNA\nOcr: DNA, mutation, genetic, sequence",
+    "Answer": "A) A change in the DNA sequence that can occur spontaneously or through environmental factors"
+}{
+    "Question": "What is the process by which plants make their own food?",
+    "Options": [
+        "(A) Respiration (B) Photosynthesis (C) Transpiration (D) Decomposition"
+    ],
+    "Ocr": [
+        "Photosynthesis",
+        "Respiration",
+        "Transpiration",
+        "Decomposition"
+    ],
+    "Caption": "A green plant with leaves and roots",
+    "Answer": "B. Photosynthesis"
+}{
+    "Question": "What is the term for the movement of tectonic plates?",
+    "Options": [
+        "(A) Plate Tectonics (B) Continental Drift (C) Sea-Floor Spreading (D) Convection Currents"
+    ],
+    "Ocr": [
+        "Plate Tectonics",
+        "Continental Drift",
+        "Sea-Floor Spreading",
+        "Convection Currents"
+    ],
+    "Caption": "A diagram showing the movement of tectonic plates",
+    "Answer": "A. Plate Tectonics"
+}{
+    "Question": "What is the largest planet in our solar system?",
+    "Options": [
+        "(A) Earth (B) Saturn (C) Jupiter (D) Uranus"
+    ],
+    "Ocr": [
+        "Jupiter",
+        "Saturn",
+        "Earth",
+        "Uranus"
+    ],
+    "Caption": "A model of the solar system with the planets labeled",
+    "Answer": "C. Jupiter"
+}{
+    "Question": "What is the process by which water moves through a plant, from the roots to the leaves?",
+    "Options": [
+        "(A) Transpiration (B) Respiration (C) Photosynthesis (D) Xylem"
+    ],
+    "Ocr": [
+        "Transpiration",
+        "Respiration",
+        "Photosynthesis",
+        "Xylem"
+    ],
+    "Caption": "A diagram showing the movement of water through a plant",
+    "Answer": "D. Xylem"
+}{
+    "Question": "What is the term for the process by which an organism's genetic information is passed from one generation to the next?",
+    "Options": [
+        "(A) Genetic Drift (B) Mutation (C) Gene Expression (D) Heredity"
+    ],
+    "Ocr": [
+        "Genetic Drift",
+        "Mutation",
+        "Gene Expression",
+        "Heredity"
+    ],
+    "Caption": "A diagram showing the passing of genetic information from one generation to the next",
+    "Answer": "D. Heredity"
+}{
+    "Question": "What is the process by which water moves through a plant, from the roots to the leaves, and is then released into the air as water vapor?",
+    "Options": [
+        "(A) Respiration",
+        "(B) Transpiration",
+        "(C) Photosynthesis",
+        "(D) Evaporation"
+    ],
+    "Ocr": [
+        "Transpiration"
+    ],
+    "Caption": "A diagram showing the process of transpiration in a plant",
+    "Answer": "B. Transpiration"
+}{
+    "Question": "What is the term for the movement of tectonic plates that results in the formation of mountains?",
+    "Options": [
+        "(A) Continental Drift",
+        "(B) Plate Tectonics",
+        "(C) Weathering",
+        "(D) Erosion"
+    ],
+    "Ocr": [
+        "Plate Tectonics"
+    ],
+    "Caption": "A diagram showing the movement of tectonic plates and the formation of mountains",
+    "Answer": "B. Plate Tectonics"
+}{
+    "Question": "What is the term for the process by which an object's velocity increases as it moves closer to a source of gravitational pull?",
+    "Options": [
+        "(A) Gravity",
+        "(B) Friction",
+        "(C) Inertia",
+        "(D) Acceleration"
+    ],
+    "Ocr": [
+        "Gravity"
+    ],
+    "Caption": "A diagram showing the relationship between an object's distance from a source of gravitational pull and its velocity",
+    "Answer": "A. Gravity"
+}{
+    "Question": "What is the term for the process by which an organism's genetic information is changed, resulting in a new trait or characteristic?",
+    "Options": [
+        "(A) Mutation",
+        "(B) Evolution",
+        "(C) Genetic Drift",
+        "(D) Gene Expression"
+    ],
+    "Ocr": [
+        "Mutation"
+    ],
+    "Caption": "A diagram showing the process of mutation in an organism's genetic information",
+    "Answer": "A. Mutation"
+}

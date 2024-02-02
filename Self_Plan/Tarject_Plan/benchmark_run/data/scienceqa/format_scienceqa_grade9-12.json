@@ -1,0 +1,2312 @@
+[
+    {
+        "Question": "What is the source of the allusion in the sentence below?\nThe pastor, explaining his decision to sell his red convertible, said it was a golden calf.\nOptions: (A) a movie (B) the Bible",
+        "choices": [
+            "a movie",
+            "the Bible"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "12976"
+    },
+    {
+        "Question": "Which type of sentence is this?\nRuth is a competitive horseback rider, and she will be competing in the next World Equestrian Games, which are held every four years.\nOptions: (A) complex (B) compound-complex (C) compound (D) simple",
+        "choices": [
+            "complex",
+            "compound-complex",
+            "compound",
+            "simple"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "grammar",
+            "category": "Phrases and clauses",
+            "skill": "Is the sentence simple, compound, complex, or compound-complex?"
+        },
+        "pid": "3413"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\nMrs. McCall decided not to argue with the name her daughter had chosen for their new kitten, figuring it was a matter of a rose by any other name.\nOptions: (A) Shakespeare (B) a poem",
+        "choices": [
+            "Shakespeare",
+            "a poem"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "1044"
+    },
+    {
+        "Question": "Which of the following contains a vague pronoun reference?\nOptions: (A) Brian had to stay home with his brother because he wasn't feeling well. (B) Brian's brother wasn't feeling well, so Brian had to stay home with him.",
+        "choices": [
+            "Brian had to stay home with his brother because he wasn't feeling well.",
+            "Brian's brother wasn't feeling well, so Brian had to stay home with him."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Pronouns",
+            "skill": "Identify vague pronoun references"
+        },
+        "pid": "15562"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\nSo, in a nutshell, that's the story of my monthlong trip to Iceland.\nOptions: (A) literature (B) U.S. history",
+        "choices": [
+            "literature",
+            "U.S. history"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "17943"
+    },
+    {
+        "Question": "Which text uses the word unique in its traditional sense?\nOptions: (A) Jon custom ordered his unique coffee table from a master craftsman in Lancaster. (B) Jon bought his unique coffee table from a factory outlet store in Lancaster.",
+        "choices": [
+            "Jon custom ordered his unique coffee table from a master craftsman in Lancaster.",
+            "Jon bought his unique coffee table from a factory outlet store in Lancaster."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Word usage and nuance",
+            "skill": "Explore words with new or contested usages"
+        },
+        "pid": "10797"
+    },
+    {
+        "Question": "What does the euphemism in this text suggest?\nDwayne is big-boned, so despite being in middle school, he often shops in the men's department.\nOptions: (A) Dwayne is tall for his age. (B) Dwayne is overweight.",
+        "choices": [
+            "Dwayne is tall for his age.",
+            "Dwayne is overweight."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Interpret the figure of speech"
+        },
+        "pid": "17860"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\nMyra thinks Mr. Harper is a Luddite because he doesn't own a cell phone.\nOptions: (A) British history (B) Roman history",
+        "choices": [
+            "British history",
+            "Roman history"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "14705"
+    },
+    {
+        "Question": "Complete the sentence so that it uses personification.\nI tried to ignore the fresh blueberry pie, but it was ().\nOptions: (A) calling my name (B) delicious",
+        "choices": [
+            "calling my name",
+            "delicious"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Creative techniques",
+            "skill": "Use personification"
+        },
+        "pid": "9091"
+    },
+    {
+        "Question": "Is this a run-on sentence?\nDust particles around nine nearby stars may have been caused by long-ago collisions between melting comets and asteroids.\nOptions: (A) yes (B) no",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Sentences, fragments, and run-ons",
+            "skill": "Identify run-on sentences"
+        },
+        "pid": "232"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\nAbdul's proclamations earned him a reputation as our neighborhood's own Nostradamus.\nOptions: (A) Greek mythology (B) history",
+        "choices": [
+            "Greek mythology",
+            "history"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "8937"
+    },
+    {
+        "Question": "Which type of sentence is this?\nDuring last night's thunderstorm, a flurry of tiny hailstones danced across the roof of our house.\nOptions: (A) compound-complex (B) compound (C) simple (D) complex",
+        "choices": [
+            "compound-complex",
+            "compound",
+            "simple",
+            "complex"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "C",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "grammar",
+            "category": "Phrases and clauses",
+            "skill": "Is the sentence simple, compound, complex, or compound-complex?"
+        },
+        "pid": "1948"
+    },
+    {
+        "Question": "Is there a sentence fragment?\nIn 2004, a team of archaeologists discovered a three-foot-tall skeleton, dubbed the \"Hobbit,\" in Indonesia. Even after ten years, experts still debate whether the skeleton belonged to a modern human.\nOptions: (A) yes (B) no",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Sentences, fragments, and run-ons",
+            "skill": "Identify sentence fragments"
+        },
+        "pid": "9386"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nTake care to get what you like or you will be forced to like what you get.\n—George Bernard Shaw, Man and Superman\nOptions: (A) chiasmus (B) paradox",
+        "choices": [
+            "chiasmus",
+            "paradox"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify the figure of speech: review"
+        },
+        "pid": "16996"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\nLooking at his life, we couldn't help but see Doug as a Job-like figure.\nOptions: (A) the Bible (B) Greek mythology",
+        "choices": [
+            "the Bible",
+            "Greek mythology"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "5346"
+    },
+    {
+        "Question": "What does the metaphor in this text suggest?\nWhen Quincy lost his job, he was devastated. The only light in the sea of darkness was the prospect of pursuing a new career.\nOptions: (A) Having to pursue a new career was the worst part of Quincy's job loss. (B) There was a benefit to Quincy's job loss.",
+        "choices": [
+            "Having to pursue a new career was the worst part of Quincy's job loss.",
+            "There was a benefit to Quincy's job loss."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Interpret figures of speech"
+        },
+        "pid": "5072"
+    },
+    {
+        "Question": "Which text uses the word nauseous in its traditional sense?\nOptions: (A) Tisha's little brother looked a little nauseous after eating mounds of candy and then going on the dizzying rides at the state fair. (B) Tisha's little brother looked a little sick after eating mounds of candy and then going on the nauseous rides at the state fair.",
+        "choices": [
+            "Tisha's little brother looked a little nauseous after eating mounds of candy and then going on the dizzying rides at the state fair.",
+            "Tisha's little brother looked a little sick after eating mounds of candy and then going on the nauseous rides at the state fair."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Word usage and nuance",
+            "skill": "Explore words with new or contested usages"
+        },
+        "pid": "1179"
+    },
+    {
+        "Question": "What kind of sentence is this?\nHow nice to finally be on vacation again!\nOptions: (A) interrogative (B) exclamatory (C) declarative",
+        "choices": [
+            "interrogative",
+            "exclamatory",
+            "declarative"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "punctuation",
+            "category": "Sentences, fragments, and run-ons",
+            "skill": "Is the sentence declarative, interrogative, imperative, or exclamatory?"
+        },
+        "pid": "2418"
+    },
+    {
+        "Question": "Which sentence states a fact?\nOptions: (A) Race car driver Mario Andretti won the Daytona 500, Indy 500, and Formula One titles during his career. (B) Mario Andretti, the only person named Driver of the Year in three different decades, is a great role model for young people interested in auto racing.",
+        "choices": [
+            "Race car driver Mario Andretti won the Daytona 500, Indy 500, and Formula One titles during his career.",
+            "Mario Andretti, the only person named Driver of the Year in three different decades, is a great role model for young people interested in auto racing."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Developing and supporting arguments",
+            "skill": "Distinguish facts from opinions"
+        },
+        "pid": "14268"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\nCody's research on nineteenth-century philosophers led him down the rabbit hole.\nOptions: (A) literature (B) Greek mythology",
+        "choices": [
+            "literature",
+            "Greek mythology"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "6637"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nChloe's Bistro used to be a great place to go for a delicious and carefully prepared dinner, but nobody goes there anymore: it's too crowded.\nOptions: (A) paradox (B) euphemism",
+        "choices": [
+            "paradox",
+            "euphemism"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify figures of speech: euphemism, hyperbole, oxymoron, paradox"
+        },
+        "pid": "8338"
+    },
+    {
+        "Question": "Which text uses the word terribly in its traditional sense?\nOptions: (A) Candice made escargots using the small snails from her garden. She prepared them according to the recipe but found the chewy texture terribly disappointing. (B) Candice decided to make escargots using the small snails from her garden, but she prepared them terribly. Since she'd forgotten to add garlic, the taste was disappointing.",
+        "choices": [
+            "Candice made escargots using the small snails from her garden. She prepared them according to the recipe but found the chewy texture terribly disappointing.",
+            "Candice decided to make escargots using the small snails from her garden, but she prepared them terribly. Since she'd forgotten to add garlic, the taste was disappointing."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Word usage and nuance",
+            "skill": "Explore words with new or contested usages"
+        },
+        "pid": "3797"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\nLooking at his life, we couldn't help but see Grayson as a Job-like figure.\nOptions: (A) the Bible (B) Roman history",
+        "choices": [
+            "the Bible",
+            "Roman history"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "2683"
+    },
+    {
+        "Question": "Is there a sentence fragment?\nOne of the oldest harvest festivals in the world is the Chinese Mid-Autumn Festival. Which was first celebrated in the tenth century BCE.\nOptions: (A) no (B) yes",
+        "choices": [
+            "no",
+            "yes"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Sentences, fragments, and run-ons",
+            "skill": "Identify sentence fragments"
+        },
+        "pid": "9541"
+    },
+    {
+        "Question": "Which of the following contains a vague pronoun reference?\nOptions: (A) Mr. Russo wanted the new employees to fill out their intake forms, but he couldn't find the forms. (B) Mr. Russo wanted the new employees to fill out their intake forms, but he couldn't find them.",
+        "choices": [
+            "Mr. Russo wanted the new employees to fill out their intake forms, but he couldn't find the forms.",
+            "Mr. Russo wanted the new employees to fill out their intake forms, but he couldn't find them."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Pronouns",
+            "skill": "Identify vague pronoun references"
+        },
+        "pid": "14403"
+    },
+    {
+        "Question": "What kind of sentence is this?\nJeremiah campaigned tirelessly in support of his neighbor's bid for elective office.\nOptions: (A) exclamatory (B) interrogative (C) declarative",
+        "choices": [
+            "exclamatory",
+            "interrogative",
+            "declarative"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "C",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "punctuation",
+            "category": "Sentences, fragments, and run-ons",
+            "skill": "Is the sentence declarative, interrogative, imperative, or exclamatory?"
+        },
+        "pid": "16557"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nFair river! In thy bright, clear flow\nOf crystal, wandering water,\nThou art an emblem of the glow\nOf beauty . . . —Edgar Allan Poe, \"To the River\"\nOptions: (A) apostrophe (B) antithesis",
+        "choices": [
+            "apostrophe",
+            "antithesis"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify the figure of speech: anaphora, antithesis, apostrophe, assonance, chiasmus, understatement"
+        },
+        "pid": "15826"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\n\"Luca's personality is very Jekyll and Hyde,\" Kari told her brother.\nOptions: (A) literature (B) U.S. history",
+        "choices": [
+            "literature",
+            "U.S. history"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "17793"
+    },
+    {
+        "Question": "Which confirmation text message is more formal?\nOptions: (A) Thanks 4 confirming your appt. C U on Mon, 1/17 @ 10. (B) Thank you for confirming your appointment. We'll see you on Monday, January 17, at 10 A.M.",
+        "choices": [
+            "Thanks 4 confirming your appt. C U on Mon, 1/17 @ 10.",
+            "Thank you for confirming your appointment. We'll see you on Monday, January 17, at 10 A.M."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Audience, purpose, and tone",
+            "skill": "Which text is most formal?"
+        },
+        "pid": "5720"
+    },
+    {
+        "Question": "What kind of sentence is this?\nConsider yourself fortunate that you missed the test.\nOptions: (A) imperative (B) interrogative (C) exclamatory",
+        "choices": [
+            "imperative",
+            "interrogative",
+            "exclamatory"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "punctuation",
+            "category": "Sentences, fragments, and run-ons",
+            "skill": "Is the sentence declarative, interrogative, imperative, or exclamatory?"
+        },
+        "pid": "3875"
+    },
+    {
+        "Question": "Which text uses the word disinterested in its traditional sense?\nOptions: (A) As an experienced teacher of American history, Mr. Patton believes that playing history-based trivia games will revive even the most disinterested of students. (B) As a teacher of American history, Mr. Patton tries to remain disinterested when discussing controversial issues, giving equal attention and consideration to each major viewpoint.",
+        "choices": [
+            "As an experienced teacher of American history, Mr. Patton believes that playing history-based trivia games will revive even the most disinterested of students.",
+            "As a teacher of American history, Mr. Patton tries to remain disinterested when discussing controversial issues, giving equal attention and consideration to each major viewpoint."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Word usage and nuance",
+            "skill": "Explore words with new or contested usages"
+        },
+        "pid": "3157"
+    },
+    {
+        "Question": "Which text uses the word travesty in its traditional sense?\nOptions: (A) In 1687, John Phillips published a controversial English translation of Cervantes's Don Quixote. Phillips's translation, a travesty of the original story, was filled with vulgar humor. (B) John Milton's epic poem Paradise Lost was first published in 1667. It's a travesty that only thirty-three pages of the original manuscript have survived.",
+        "choices": [
+            "In 1687, John Phillips published a controversial English translation of Cervantes's Don Quixote. Phillips's translation, a travesty of the original story, was filled with vulgar humor.",
+            "John Milton's epic poem Paradise Lost was first published in 1667. It's a travesty that only thirty-three pages of the original manuscript have survived."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Word usage and nuance",
+            "skill": "Explore words with new or contested usages"
+        },
+        "pid": "9323"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\nMalik got off the mountain by the skin of his teeth.\nOptions: (A) the Bible (B) U.S. history",
+        "choices": [
+            "the Bible",
+            "U.S. history"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "14739"
+    },
+    {
+        "Question": "Which text uses the word factoid in its traditional sense?\nOptions: (A) As a geneticist, Eliana dislikes many popular sci-fi movies because they often present audiences with factoids that misrepresent her field. (B) As a geneticist, Eliana enjoys watching science documentaries and sharing various factoids she's learned with her colleagues.",
+        "choices": [
+            "As a geneticist, Eliana dislikes many popular sci-fi movies because they often present audiences with factoids that misrepresent her field.",
+            "As a geneticist, Eliana enjoys watching science documentaries and sharing various factoids she's learned with her colleagues."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Word usage and nuance",
+            "skill": "Explore words with new or contested usages"
+        },
+        "pid": "4774"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nThe salesperson tried hard to convince Sanjay that the jacket was a good buy; after all, it was made of genuine imitation leather.\nOptions: (A) oxymoron (B) hyperbole",
+        "choices": [
+            "oxymoron",
+            "hyperbole"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify the figure of speech: review"
+        },
+        "pid": "6809"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\n\"Mateo's personality is very Jekyll and Hyde,\" Julia told her brother.\nOptions: (A) literature (B) a song",
+        "choices": [
+            "literature",
+            "a song"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "18763"
+    },
+    {
+        "Question": "Which logical fallacy is used in the text?\nI believe everyone has his or her own idea of what's beautiful in the world. After all, it's the individual who determines what's attractive according to his or her own opinion.\nOptions: (A) circular reasoning: an argument that supports a claim with the claim itself (B) hasty generalization: a broad claim based on too few observations (C) straw man: a misrepresentation of an opponent's position that makes it easier to argue against",
+        "choices": [
+            "circular reasoning: an argument that supports a claim with the claim itself",
+            "hasty generalization: a broad claim based on too few observations",
+            "straw man: a misrepresentation of an opponent's position that makes it easier to argue against"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Developing and supporting arguments",
+            "skill": "Classify logical fallacies"
+        },
+        "pid": "8025"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nThe Thompson family is going to spend two weeks in Ocean City, but for Darell it will be a working vacation, since he'll be checking in with the office every day.\nOptions: (A) oxymoron (B) euphemism",
+        "choices": [
+            "oxymoron",
+            "euphemism"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify figures of speech: euphemism, hyperbole, oxymoron, paradox"
+        },
+        "pid": "10478"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nI must have eaten too much of Bernard's homemade chili, because now I'm so full I could explode!\nOptions: (A) hyperbole (B) oxymoron",
+        "choices": [
+            "hyperbole",
+            "oxymoron"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify the figure of speech: euphemism, hyperbole, oxymoron, paradox"
+        },
+        "pid": "19595"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nHe clasps the crag with crooked hands;\nClose to the sun in lonely lands . . .\n—Alfred, Lord Tennyson, \"The Eagle\"\nOptions: (A) idiom (B) alliteration",
+        "choices": [
+            "idiom",
+            "alliteration"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify figures of speech: review"
+        },
+        "pid": "971"
+    },
+    {
+        "Question": "Which logical fallacy is used in the text?\nMy father asked me to help around the house more. I can't believe he doesn't want me to spend time with my friends.\nOptions: (A) appeal to nature: the assumption that natural things are always good (B) circular reasoning: an argument that supports a claim with the claim itself (C) straw man: a misrepresentation of an opponent's position that makes it easier to argue against",
+        "choices": [
+            "appeal to nature: the assumption that natural things are always good",
+            "circular reasoning: an argument that supports a claim with the claim itself",
+            "straw man: a misrepresentation of an opponent's position that makes it easier to argue against"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "C",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Developing and supporting arguments",
+            "skill": "Classify logical fallacies"
+        },
+        "pid": "5592"
+    },
+    {
+        "Question": "Which type of sentence is this?\nAs Pablo sat down on the rickety old chair, it abruptly collapsed beneath him.\nOptions: (A) simple (B) complex (C) compound-complex (D) compound",
+        "choices": [
+            "simple",
+            "complex",
+            "compound-complex",
+            "compound"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "grammar",
+            "category": "Phrases and clauses",
+            "skill": "Is the sentence simple, compound, complex, or compound-complex?"
+        },
+        "pid": "13528"
+    },
+    {
+        "Question": "Which of the following contains a vague pronoun reference?\nOptions: (A) Dave went on to calculus after studying trigonometry, but he never fully comprehended calculus. (B) Dave went on to calculus after studying trigonometry, but he never fully comprehended it.",
+        "choices": [
+            "Dave went on to calculus after studying trigonometry, but he never fully comprehended calculus.",
+            "Dave went on to calculus after studying trigonometry, but he never fully comprehended it."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Pronouns",
+            "skill": "Identify vague pronoun references"
+        },
+        "pid": "21000"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nYouth would be an ideal state if it came a little later in life.\n—Herbert Asquith\nOptions: (A) oxymoron (B) paradox",
+        "choices": [
+            "oxymoron",
+            "paradox"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify figures of speech: euphemism, hyperbole, oxymoron, paradox"
+        },
+        "pid": "2597"
+    },
+    {
+        "Question": "Which logical fallacy is used in the text?\nIf you have any doubts that Ken Henderson is the ideal candidate, just look at how many people have come out to vote for him.\nOptions: (A) bandwagon fallacy: the assumption that the popular choice is automatically correct (B) appeal to nature: the assumption that natural things are always good (C) false causation: the assumption that because two things happened together, one caused the other",
+        "choices": [
+            "bandwagon fallacy: the assumption that the popular choice is automatically correct",
+            "appeal to nature: the assumption that natural things are always good",
+            "false causation: the assumption that because two things happened together, one caused the other"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Developing and supporting arguments",
+            "skill": "Classify logical fallacies"
+        },
+        "pid": "7466"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nHanson's leaving his job? That's old news. He's been planning that for months.\nOptions: (A) euphemism (B) oxymoron",
+        "choices": [
+            "euphemism",
+            "oxymoron"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify figures of speech: euphemism, hyperbole, oxymoron, paradox"
+        },
+        "pid": "1637"
+    },
+    {
+        "Question": "What does the idiom in this text suggest?\n\"Speak of the devil!\" Tessa declared when Patrick strolled into the room.\nOptions: (A) Tessa didn't trust Patrick. (B) Tessa had just been speaking about Patrick.",
+        "choices": [
+            "Tessa didn't trust Patrick.",
+            "Tessa had just been speaking about Patrick."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Interpret the figure of speech"
+        },
+        "pid": "17899"
+    },
+    {
+        "Question": "What does the verbal irony in this text suggest?\nWhile waiting for her search results, Cara exclaimed, \"My Internet connection is as speedy as a snail!\"\nOptions: (A) The Internet connection was very fast. (B) The Internet connection was very slow.",
+        "choices": [
+            "The Internet connection was very fast.",
+            "The Internet connection was very slow."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Interpret the figure of speech"
+        },
+        "pid": "14862"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nThe audience at the 2012 Olympics cheered as, with Herculean effort, Kim Un-Guk of North Korea set an Olympic record by lifting a 153-kilogram weight.\nOptions: (A) alliteration (B) allusion",
+        "choices": [
+            "alliteration",
+            "allusion"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify figures of speech: review"
+        },
+        "pid": "15702"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\nAndrew described the situation he was facing with his boss as a catch-22.\nOptions: (A) a song (B) literature",
+        "choices": [
+            "a song",
+            "literature"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "19642"
+    },
+    {
+        "Question": "Which of the following contains a vague pronoun reference?\nOptions: (A) They are researching a hybrid South African tobacco plant that may decrease reliance on fossil fuels. It contains oily seeds that can be transformed into sustainable biofuel. (B) Scientists are researching a hybrid South African tobacco plant that may decrease reliance on fossil fuels. It contains oily seeds that can be transformed into sustainable biofuel.",
+        "choices": [
+            "They are researching a hybrid South African tobacco plant that may decrease reliance on fossil fuels. It contains oily seeds that can be transformed into sustainable biofuel.",
+            "Scientists are researching a hybrid South African tobacco plant that may decrease reliance on fossil fuels. It contains oily seeds that can be transformed into sustainable biofuel."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Pronouns",
+            "skill": "Identify vague pronoun references"
+        },
+        "pid": "8362"
+    },
+    {
+        "Question": "Which announcement is more formal?\nOptions: (A) The Riverside Law Firm is so happy to tell you . . . (B) The Riverside Law Firm is pleased to announce . . .",
+        "choices": [
+            "The Riverside Law Firm is so happy to tell you . . .",
+            "The Riverside Law Firm is pleased to announce . . ."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Audience, purpose, and tone",
+            "skill": "Which text is most formal?"
+        },
+        "pid": "20891"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\nEd picked up his pace on the trail as his spidey sense began to tingle.\nOptions: (A) a song (B) a comic book",
+        "choices": [
+            "a song",
+            "a comic book"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "20440"
+    },
+    {
+        "Question": "Complete the sentence so that it uses personification.\nAgainst all odds, the () train eventually reached the crest of the hill.\nOptions: (A) run-down (B) wheezing",
+        "choices": [
+            "run-down",
+            "wheezing"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Creative techniques",
+            "skill": "Use personification"
+        },
+        "pid": "10419"
+    },
+    {
+        "Question": "Which correctly shows the title of a magazine?\nOptions: (A) ***Car and Driver*** (B) \"Car and Driver\"",
+        "choices": [
+            "***Car and Driver***",
+            "\"Car and Driver\""
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "punctuation",
+            "category": "Formatting",
+            "skill": "Formatting titles"
+        },
+        "pid": "9057"
+    },
+    {
+        "Question": "Which logical fallacy is used in the text?\nBernard once fell asleep with the window open and woke up with a horrible migraine. Since then, he's always made sure to close his window before going to sleep.\nOptions: (A) bandwagon fallacy: the assumption that the popular choice is automatically correct (B) false causation: the assumption that because two things happened together, one caused the other (C) straw man: a misrepresentation of an opponent's position that makes it easier to argue against",
+        "choices": [
+            "bandwagon fallacy: the assumption that the popular choice is automatically correct",
+            "false causation: the assumption that because two things happened together, one caused the other",
+            "straw man: a misrepresentation of an opponent's position that makes it easier to argue against"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Developing and supporting arguments",
+            "skill": "Classify logical fallacies"
+        },
+        "pid": "10065"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\nHunter's Falstaffian nature makes him stand out at a party.\nOptions: (A) Shakespeare (B) the Bible",
+        "choices": [
+            "Shakespeare",
+            "the Bible"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "20988"
+    },
+    {
+        "Question": "Which sentence states a fact?\nOptions: (A) Landslides are caused by many factors, including earthquakes, storms, and volcanic eruptions, and they can occur in any U.S. state. (B) Tornadoes are scarier than other natural disasters like earthquakes, hurricanes, and volcanic eruptions.",
+        "choices": [
+            "Landslides are caused by many factors, including earthquakes, storms, and volcanic eruptions, and they can occur in any U.S. state.",
+            "Tornadoes are scarier than other natural disasters like earthquakes, hurricanes, and volcanic eruptions."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Developing and supporting arguments",
+            "skill": "Distinguish facts from opinions"
+        },
+        "pid": "2423"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nJeremiah and Kari have trouble working on projects together. Although Kari is very sociable and friendly, she's not exactly a team player.\nOptions: (A) paradox (B) euphemism",
+        "choices": [
+            "paradox",
+            "euphemism"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify figures of speech: euphemism, hyperbole, oxymoron, paradox"
+        },
+        "pid": "2758"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nI've heard that Kiara & Co. is downsizing, so I'm happy to see that their store in downtown Greenville will remain open for now.\nOptions: (A) euphemism (B) hyperbole",
+        "choices": [
+            "euphemism",
+            "hyperbole"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify the figure of speech: review"
+        },
+        "pid": "6278"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\nPamela warned her youngest son not to cry wolf while wrestling with his older brother.\nOptions: (A) U.S. history (B) a fable",
+        "choices": [
+            "U.S. history",
+            "a fable"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "3430"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nLove is an ideal thing, marriage a real thing.\n—Johann Wolfgang von Goethe\nOptions: (A) assonance (B) antithesis",
+        "choices": [
+            "assonance",
+            "antithesis"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify the figure of speech: anaphora, antithesis, apostrophe, assonance, chiasmus, understatement"
+        },
+        "pid": "9762"
+    },
+    {
+        "Question": "Is this a run-on sentence?\nThe Gullah Geechee Heritage Corridor, which stretches from the Cape Fear River in North Carolina to the St. John's River in Florida, was established by Congress to recognize and preserve the cultural and historical contributions of the descendants of the West African slaves brought to the United States around the 1700s.\nOptions: (A) no (B) yes",
+        "choices": [
+            "no",
+            "yes"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Sentences, fragments, and run-ons",
+            "skill": "Identify run-on sentences"
+        },
+        "pid": "16437"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\nJim said he would put in a good word for Alexandra with their boss, but she knew he had a reputation as a Benedict Arnold.\nOptions: (A) a poem (B) U.S. history",
+        "choices": [
+            "a poem",
+            "U.S. history"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "4975"
+    },
+    {
+        "Question": "Which text uses the word unique in its traditional sense?\nOptions: (A) Warren custom ordered his unique coffee table from a master craftsman in Oak Grove. (B) Warren bought his unique coffee table from a factory outlet store in Oak Grove.",
+        "choices": [
+            "Warren custom ordered his unique coffee table from a master craftsman in Oak Grove.",
+            "Warren bought his unique coffee table from a factory outlet store in Oak Grove."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Word usage and nuance",
+            "skill": "Explore words with new or contested usages"
+        },
+        "pid": "13388"
+    },
+    {
+        "Question": "Which correctly shows the title of a movie?\nOptions: (A) \"In an Old House\" (B) ***In an Old House***",
+        "choices": [
+            "\"In an Old House\"",
+            "***In an Old House***"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "punctuation",
+            "category": "Formatting",
+            "skill": "Formatting titles"
+        },
+        "pid": "6214"
+    },
+    {
+        "Question": "Which type of sentence is this?\nAs Dale sat down on the rickety old chair, it abruptly collapsed beneath him.\nOptions: (A) compound-complex (B) complex (C) simple (D) compound",
+        "choices": [
+            "compound-complex",
+            "complex",
+            "simple",
+            "compound"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "grammar",
+            "category": "Phrases and clauses",
+            "skill": "Is the sentence simple, compound, complex, or compound-complex?"
+        },
+        "pid": "20217"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\nRed velvet cupcakes were Sasha's Achilles's heel when she was trying to eat more healthily.\nOptions: (A) a movie (B) Greek mythology",
+        "choices": [
+            "a movie",
+            "Greek mythology"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "7902"
+    },
+    {
+        "Question": "What does the verbal irony in this text suggest?\nWhile waiting for her search results, Beth exclaimed, \"My Internet connection is as speedy as a snail!\"\nOptions: (A) The Internet connection was very slow. (B) The Internet connection was very fast.",
+        "choices": [
+            "The Internet connection was very slow.",
+            "The Internet connection was very fast."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Interpret figures of speech"
+        },
+        "pid": "8062"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nJulian's leaving his job? That's old news. He's been planning that for months.\nOptions: (A) euphemism (B) oxymoron",
+        "choices": [
+            "euphemism",
+            "oxymoron"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify figures of speech: euphemism, hyperbole, oxymoron, paradox"
+        },
+        "pid": "15595"
+    },
+    {
+        "Question": "Which logical fallacy is used in the text?\nSince Hampton College receives more applications for admission than Greenpoint University, Hampton College is evidently a better school.\nOptions: (A) hasty generalization: a broad claim based on too few observations (B) slippery slope fallacy: the false assumption that a small first step will lead to extreme consequences (C) bandwagon fallacy: the assumption that the popular choice is automatically correct",
+        "choices": [
+            "hasty generalization: a broad claim based on too few observations",
+            "slippery slope fallacy: the false assumption that a small first step will lead to extreme consequences",
+            "bandwagon fallacy: the assumption that the popular choice is automatically correct"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "C",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Developing and supporting arguments",
+            "skill": "Classify logical fallacies"
+        },
+        "pid": "1888"
+    },
+    {
+        "Question": "Which text message is more formal?\nOptions: (A) Ms. Arnold is already here. She's waiting in the lobby. (B) Heads up! Arnold is here. In the lobby.",
+        "choices": [
+            "Ms. Arnold is already here. She's waiting in the lobby.",
+            "Heads up! Arnold is here. In the lobby."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Audience, purpose, and tone",
+            "skill": "Which text is most formal?"
+        },
+        "pid": "14846"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\nGrayson's recent behavior made his parents begin to see his friend Hanson as some sort of Svengali.\nOptions: (A) a poem (B) literature",
+        "choices": [
+            "a poem",
+            "literature"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "4446"
+    },
+    {
+        "Question": "Which of the following contains a vague pronoun reference?\nOptions: (A) Katie looks almost identical to her twin sister Abby, but she has pierced ears. (B) Katie has pierced ears, but otherwise she looks almost identical to her twin sister Abby.",
+        "choices": [
+            "Katie looks almost identical to her twin sister Abby, but she has pierced ears.",
+            "Katie has pierced ears, but otherwise she looks almost identical to her twin sister Abby."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Pronouns",
+            "skill": "Identify vague pronoun references"
+        },
+        "pid": "8703"
+    },
+    {
+        "Question": "What does the allusion in this text suggest?\nTroy seems to have the Midas touch. Without any special experience or training, he launched a thriving business and then established a well-respected charity.\nOptions: (A) Troy is lazy and uninformed. (B) Troy is successful at all that he does.",
+        "choices": [
+            "Troy is lazy and uninformed.",
+            "Troy is successful at all that he does."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Interpret figures of speech"
+        },
+        "pid": "11397"
+    },
+    {
+        "Question": "Which text uses the word literally in its traditional sense?\nOptions: (A) Destiny adores the classic Renaissance style of the Rialto Bridge in Venice. She was surprised to learn that the bridge remains functional even though it is literally hundreds of years old. (B) Destiny adores the classic Renaissance style of the Rialto Bridge in Venice. She was surprised to learn that the bridge remains functional even though it is literally a million years old.",
+        "choices": [
+            "Destiny adores the classic Renaissance style of the Rialto Bridge in Venice. She was surprised to learn that the bridge remains functional even though it is literally hundreds of years old.",
+            "Destiny adores the classic Renaissance style of the Rialto Bridge in Venice. She was surprised to learn that the bridge remains functional even though it is literally a million years old."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Word usage and nuance",
+            "skill": "Explore words with new or contested usages"
+        },
+        "pid": "17178"
+    },
+    {
+        "Question": "Is this a run-on sentence?\nRoman gladiators consumed more calcium than everyday Roman citizens the source of that calcium may have been the ashes of burned plants.\nOptions: (A) no (B) yes",
+        "choices": [
+            "no",
+            "yes"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Sentences, fragments, and run-ons",
+            "skill": "Identify run-on sentences"
+        },
+        "pid": "16528"
+    },
+    {
+        "Question": "Which of the following contains a vague pronoun reference?\nOptions: (A) When Molly was researching the lives of famous scientists, one source said that Albert Einstein had a speech impediment when he was a child. (B) When Molly was researching the lives of famous scientists, it said that Albert Einstein had a speech impediment when he was a child.",
+        "choices": [
+            "When Molly was researching the lives of famous scientists, one source said that Albert Einstein had a speech impediment when he was a child.",
+            "When Molly was researching the lives of famous scientists, it said that Albert Einstein had a speech impediment when he was a child."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Pronouns",
+            "skill": "Identify vague pronoun references"
+        },
+        "pid": "9109"
+    },
+    {
+        "Question": "What does this Works Cited entry indicate about the cited work?\nEncyclopedia of Indiana. New York: Somerset Publishers, 1993. Print.\nOptions: (A) Somerset is the place of publication. (B) It has no author. (C) It was published in 1983.",
+        "choices": [
+            "Somerset is the place of publication.",
+            "It has no author.",
+            "It was published in 1983."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "reference-skills",
+            "category": "Research skills",
+            "skill": "Understand a Works Cited entry (MLA 7th edition)"
+        },
+        "pid": "10630"
+    },
+    {
+        "Question": "Which text uses the word unique in its traditional sense?\nOptions: (A) Each vase and bowl in Kiera's collection of handmade pottery is unique. The colors and designs reflect both her cultural heritage and her individual artistic style. (B) Kiera's collection of handmade pottery was featured in last week's edition of the Springtown Journal, which identified her as \"one of the most unique young artists to debut this year.\"",
+        "choices": [
+            "Each vase and bowl in Kiera's collection of handmade pottery is unique. The colors and designs reflect both her cultural heritage and her individual artistic style.",
+            "Kiera's collection of handmade pottery was featured in last week's edition of the Springtown Journal, which identified her as \"one of the most unique young artists to debut this year.\""
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Word usage and nuance",
+            "skill": "Explore words with new or contested usages"
+        },
+        "pid": "17558"
+    },
+    {
+        "Question": "Which letter opening is more formal?\nOptions: (A) Dear Mr. McConnell, (B) Dear Eric,",
+        "choices": [
+            "Dear Mr. McConnell,",
+            "Dear Eric,"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Audience, purpose, and tone",
+            "skill": "Which text is most formal?"
+        },
+        "pid": "12453"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nVincent and Tessa have trouble working on projects together. Although Tessa is very sociable and friendly, she's not exactly a team player.\nOptions: (A) euphemism (B) paradox",
+        "choices": [
+            "euphemism",
+            "paradox"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify the figure of speech: euphemism, hyperbole, oxymoron, paradox"
+        },
+        "pid": "13666"
+    },
+    {
+        "Question": "Is there a sentence fragment?\nWe called a taxi for Mr. McClure. Whose car was towed from the no-parking zone in front of the firehouse.\nOptions: (A) yes (B) no",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Sentences, fragments, and run-ons",
+            "skill": "Identify sentence fragments"
+        },
+        "pid": "1571"
+    },
+    {
+        "Question": "Which logical fallacy is used in the text?\nThree key pieces of evidence prove that my client is innocent. First, she has not done anything wrong. Second, she is not guilty. And third, she is free from all criminal behaviors, dispositions, or inclinations.\nOptions: (A) circular reasoning: an argument that supports a claim with the claim itself (B) false dichotomy: an argument that presents only two choices when more options exist (C) false causation: the assumption that because two things happened together, one caused the other",
+        "choices": [
+            "circular reasoning: an argument that supports a claim with the claim itself",
+            "false dichotomy: an argument that presents only two choices when more options exist",
+            "false causation: the assumption that because two things happened together, one caused the other"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Developing and supporting arguments",
+            "skill": "Classify logical fallacies"
+        },
+        "pid": "17424"
+    },
+    {
+        "Question": "What kind of sentence is this?\nWhat is the likelihood that we will encounter bears and other wildlife in Alaska?\nOptions: (A) imperative (B) declarative (C) interrogative",
+        "choices": [
+            "imperative",
+            "declarative",
+            "interrogative"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "C",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "punctuation",
+            "category": "Sentences, fragments, and run-ons",
+            "skill": "Is the sentence declarative, interrogative, imperative, or exclamatory?"
+        },
+        "pid": "17055"
+    },
+    {
+        "Question": "Complete the sentence so that it uses personification.\nThe washing machine () when Doug ran an oversized load of laundry.\nOptions: (A) complained (B) broke",
+        "choices": [
+            "complained",
+            "broke"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Creative techniques",
+            "skill": "Use personification"
+        },
+        "pid": "845"
+    },
+    {
+        "Question": "Is there a sentence fragment?\nDeveloped in 1973, GPS is a satellite-based navigation system. Also known as Global Positioning System.\nOptions: (A) no (B) yes",
+        "choices": [
+            "no",
+            "yes"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Sentences, fragments, and run-ons",
+            "skill": "Identify sentence fragments"
+        },
+        "pid": "17317"
+    },
+    {
+        "Question": "Which logical fallacy is used in the text?\nSince Greenville College receives more applications for admission than Springtown University, Greenville College is evidently a better school.\nOptions: (A) hasty generalization: a broad claim based on too few observations (B) bandwagon fallacy: the assumption that the popular choice is automatically correct (C) appeal to nature: the assumption that natural things are always good",
+        "choices": [
+            "hasty generalization: a broad claim based on too few observations",
+            "bandwagon fallacy: the assumption that the popular choice is automatically correct",
+            "appeal to nature: the assumption that natural things are always good"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Developing and supporting arguments",
+            "skill": "Classify logical fallacies"
+        },
+        "pid": "2569"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\nTables and chairs had been knocked over and the floor was strewn with cups and plates as if in the wake of a recent Saturnalia.\nOptions: (A) a poem (B) Roman history",
+        "choices": [
+            "a poem",
+            "Roman history"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "16440"
+    },
+    {
+        "Question": "Which type of sentence is this?\nBrody always approaches difficult tasks enthusiastically, and he frequently motivates others with his energy and fervor.\nOptions: (A) compound (B) compound-complex (C) simple (D) complex",
+        "choices": [
+            "compound",
+            "compound-complex",
+            "simple",
+            "complex"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "grammar",
+            "category": "Phrases and clauses",
+            "skill": "Is the sentence simple, compound, complex, or compound-complex?"
+        },
+        "pid": "7026"
+    },
+    {
+        "Question": "Which text uses the word can in its traditional sense?\nOptions: (A) Grace can type using a keyboard with a QWERTY layout, but she prefers the Dvorak layout. The two keyboards have different arrangements of letters and symbols. (B) If Grace prefers a keyboard with the Dvorak layout, she can use mine. In my opinion, it's faster than typing on a keyboard with a QWERTY layout.",
+        "choices": [
+            "Grace can type using a keyboard with a QWERTY layout, but she prefers the Dvorak layout. The two keyboards have different arrangements of letters and symbols.",
+            "If Grace prefers a keyboard with the Dvorak layout, she can use mine. In my opinion, it's faster than typing on a keyboard with a QWERTY layout."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Word usage and nuance",
+            "skill": "Explore words with new or contested usages"
+        },
+        "pid": "18382"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nMary's Boutique claims to have \"something for everyone,\" but it is generally understood that their target market is women of a certain age.\nOptions: (A) euphemism (B) oxymoron",
+        "choices": [
+            "euphemism",
+            "oxymoron"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify the figure of speech: euphemism, hyperbole, oxymoron, paradox"
+        },
+        "pid": "17721"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\nMost of the people who knew Harold considered him to be an unrepentant Casanova.\nOptions: (A) history (B) Greek mythology",
+        "choices": [
+            "history",
+            "Greek mythology"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "962"
+    },
+    {
+        "Question": "What does the idiom in this text suggest?\nIn such an unfamiliar environment, Luca was a fish out of water.\nOptions: (A) Luca felt out of place. (B) Luca didn't have any friends.",
+        "choices": [
+            "Luca felt out of place.",
+            "Luca didn't have any friends."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Interpret figures of speech"
+        },
+        "pid": "2078"
+    },
+    {
+        "Question": "What kind of sentence is this?\nMaureen felt intimidated by the steep cliff that she faced on her first rock-climbing adventure.\nOptions: (A) exclamatory (B) declarative (C) interrogative",
+        "choices": [
+            "exclamatory",
+            "declarative",
+            "interrogative"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "punctuation",
+            "category": "Sentences, fragments, and run-ons",
+            "skill": "Is the sentence declarative, interrogative, imperative, or exclamatory?"
+        },
+        "pid": "3220"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nDaniel is a real Benedict Arnold. After promising to work on my campaign for class president, he decided to support my opponent.\nOptions: (A) allusion (B) simile",
+        "choices": [
+            "allusion",
+            "simile"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify figures of speech: review"
+        },
+        "pid": "11756"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nColleen asked her mother if she could adopt a cat, and her mother replied, \"It's a definite maybe,\" so Colleen didn't want to get her hopes up.\nOptions: (A) euphemism (B) oxymoron",
+        "choices": [
+            "euphemism",
+            "oxymoron"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify the figure of speech: euphemism, hyperbole, oxymoron, paradox"
+        },
+        "pid": "2800"
+    },
+    {
+        "Question": "What does the euphemism in this text suggest?\n\"Thank you for your work over the years,\" Mrs. Bryant said to her gardener. \"As of next week, however, your services will no longer be required.\"\nOptions: (A) The gardener is no longer obligated to work for Mrs. Bryant. (B) The gardener is being fired.",
+        "choices": [
+            "The gardener is no longer obligated to work for Mrs. Bryant.",
+            "The gardener is being fired."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Interpret figures of speech"
+        },
+        "pid": "2817"
+    },
+    {
+        "Question": "Which holiday greeting is more formal?\nOptions: (A) Happy 4th from the crew at Natalie's. (B) Best wishes for an enjoyable Independence Day from the entire staff at Natalie's Cafe.",
+        "choices": [
+            "Happy 4th from the crew at Natalie's.",
+            "Best wishes for an enjoyable Independence Day from the entire staff at Natalie's Cafe."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Audience, purpose, and tone",
+            "skill": "Which text is most formal?"
+        },
+        "pid": "4211"
+    },
+    {
+        "Question": "Which type of sentence is this?\nThe right hemisphere of the human brain typically controls muscle movement on the left side of the body.\nOptions: (A) compound (B) compound-complex (C) simple (D) complex",
+        "choices": [
+            "compound",
+            "compound-complex",
+            "simple",
+            "complex"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "C",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "grammar",
+            "category": "Phrases and clauses",
+            "skill": "Is the sentence simple, compound, complex, or compound-complex?"
+        },
+        "pid": "15872"
+    },
+    {
+        "Question": "Which text uses the word random in its traditional sense?\nOptions: (A) At the grocery store, Denise hastily grabbed fruits and vegetables at random, filling her shopping cart with a hodgepodge of food. (B) Denise made a random trip to the grocery store, though her kitchen was already stocked with a hodgepodge of food.",
+        "choices": [
+            "At the grocery store, Denise hastily grabbed fruits and vegetables at random, filling her shopping cart with a hodgepodge of food.",
+            "Denise made a random trip to the grocery store, though her kitchen was already stocked with a hodgepodge of food."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Word usage and nuance",
+            "skill": "Explore words with new or contested usages"
+        },
+        "pid": "7267"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nAfter having lived near the airport for ten years, I've finally gotten accustomed to the dull roar of the planes taking off above my house.\nOptions: (A) euphemism (B) oxymoron",
+        "choices": [
+            "euphemism",
+            "oxymoron"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify figures of speech: euphemism, hyperbole, oxymoron, paradox"
+        },
+        "pid": "5050"
+    },
+    {
+        "Question": "Which correctly shows the title of a short story?\nOptions: (A) The Law of Life (B) \"The Law of Life\"",
+        "choices": [
+            "The Law of Life",
+            "\"The Law of Life\""
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "punctuation",
+            "category": "Formatting",
+            "skill": "Formatting titles"
+        },
+        "pid": "7387"
+    },
+    {
+        "Question": "Is this a run-on sentence?\nBecause penguins are frightened by humans and difficult to approach, researchers from the University of Strasbourg used remote-controlled rovers outfitted as baby penguins to study their subjects.\nOptions: (A) no (B) yes",
+        "choices": [
+            "no",
+            "yes"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Sentences, fragments, and run-ons",
+            "skill": "Identify run-on sentences"
+        },
+        "pid": "10602"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\n\"The reporter on the news said we may have to evaporate the island if the storm gets any worse,\" my younger sister explained, unaware of her malapropism.\nOptions: (A) U.S. history (B) literature",
+        "choices": [
+            "U.S. history",
+            "literature"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "4088"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nWhat we need in the United States is not division; what we need in the United States is not hatred; what we need in the United States is not violence and lawlessness . . .\n—Senator Robert Kennedy, speaking on the death of Martin Luther King, Jr.\nOptions: (A) hyperbole (B) anaphora",
+        "choices": [
+            "hyperbole",
+            "anaphora"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 11,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify the figure of speech: review"
+        },
+        "pid": "11990"
+    },
+    {
+        "Question": "What does the hyperbole in this text suggest?\nThe last time Caleb cleaned his room, dinosaurs were still roaming the Earth.\nOptions: (A) Caleb hasn't cleaned his room in a very long time. (B) Caleb refuses to clean his room.",
+        "choices": [
+            "Caleb hasn't cleaned his room in a very long time.",
+            "Caleb refuses to clean his room."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Interpret figures of speech"
+        },
+        "pid": "3056"
+    },
+    {
+        "Question": "Which text uses the word ironic in its traditional sense?\nOptions: (A) Last winter, Levi took a vacation to Florida to escape Boston's cold, snowy weather. In an ironic twist, he just missed a few of his college friends, who had been in Florida the previous week. (B) Last winter, Levi took a vacation to Florida to escape Boston's cold, snowy weather. In an ironic twist, a rare snowstorm happened to hit Florida that week.",
+        "choices": [
+            "Last winter, Levi took a vacation to Florida to escape Boston's cold, snowy weather. In an ironic twist, he just missed a few of his college friends, who had been in Florida the previous week.",
+            "Last winter, Levi took a vacation to Florida to escape Boston's cold, snowy weather. In an ironic twist, a rare snowstorm happened to hit Florida that week."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Word usage and nuance",
+            "skill": "Explore words with new or contested usages"
+        },
+        "pid": "9891"
+    },
+    {
+        "Question": "Which text uses the word factoid in its traditional sense?\nOptions: (A) The lecturer became flustered when a factoid that she had presented was promptly refuted by an expert in the field. (B) The lecturer's presentation on economics included some interesting factoids from recent research studies in the field.",
+        "choices": [
+            "The lecturer became flustered when a factoid that she had presented was promptly refuted by an expert in the field.",
+            "The lecturer's presentation on economics included some interesting factoids from recent research studies in the field."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Word usage and nuance",
+            "skill": "Explore words with new or contested usages"
+        },
+        "pid": "8509"
+    },
+    {
+        "Question": "Complete the sentence so that it uses personification.\nThe gardener struggled to tame the () vines.\nOptions: (A) overwhelming (B) merciless",
+        "choices": [
+            "overwhelming",
+            "merciless"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Creative techniques",
+            "skill": "Use personification"
+        },
+        "pid": "11367"
+    },
+    {
+        "Question": "Which text uses the word nauseous in its traditional sense?\nOptions: (A) Danielle couldn't tolerate the nauseous odor emanating from the landfill, so she rolled up her car windows as she drove past. (B) The odor emanating from the landfill made Danielle so nauseous that she had to roll up the car windows as she drove past.",
+        "choices": [
+            "Danielle couldn't tolerate the nauseous odor emanating from the landfill, so she rolled up her car windows as she drove past.",
+            "The odor emanating from the landfill made Danielle so nauseous that she had to roll up the car windows as she drove past."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Word usage and nuance",
+            "skill": "Explore words with new or contested usages"
+        },
+        "pid": "8729"
+    },
+    {
+        "Question": "What is the source of the allusion in the sentence below?\nLast night's play-off in the semifinals proved to be the team's Waterloo.\nOptions: (A) a song (B) history",
+        "choices": [
+            "a song",
+            "history"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Recall the source of an allusion"
+        },
+        "pid": "18935"
+    },
+    {
+        "Question": "Choose the poem that uses onomatopoeia.\nContext: From Emily Dickinson, \"I heard a Fly buzz (465)\" and from William Knox, \"Mortality\"\nOptions: (A) I heard a Fly buzz—when I died—\nThe Stillness in the Room\nWas like the Stillness in the Air—\nBetween the Heaves of Storm— (B) The peasant whose lot was to sow and to reap,\nThe herdsman who climbed with his goats to the steep,\nThe beggar that wandered in search of his bread,\nHave faded away like the grass that we tread.",
+        "choices": [
+            "I heard a Fly buzz—when I died—\nThe Stillness in the Room\nWas like the Stillness in the Air—\nBetween the Heaves of Storm—",
+            "The peasant whose lot was to sow and to reap,\nThe herdsman who climbed with his goats to the steep,\nThe beggar that wandered in search of his bread,\nHave faded away like the grass that we tread."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "reading-comprehension",
+            "category": "Analyzing literature",
+            "skill": "Identify elements of poetry"
+        },
+        "pid": "13437"
+    },
+    {
+        "Question": "Complete the sentence so that it uses personification.\nHe had wasted too many opportunities, and now his last chance was ().\nOptions: (A) nearly gone (B) walking out the door",
+        "choices": [
+            "nearly gone",
+            "walking out the door"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Creative techniques",
+            "skill": "Use personification"
+        },
+        "pid": "11548"
+    },
+    {
+        "Question": "What does the metaphor in this text suggest?\nAll religions, arts, and sciences are branches of the same tree.\n—Albert Einstein\nOptions: (A) All religions, arts, and sciences are distant from one another. (B) All religions, arts, and sciences are related.",
+        "choices": [
+            "All religions, arts, and sciences are distant from one another.",
+            "All religions, arts, and sciences are related."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 9,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Interpret figures of speech"
+        },
+        "pid": "155"
+    },
+    {
+        "Question": "Which type of sentence is this?\nAs Scott sat down on the rickety old chair, it abruptly collapsed beneath him.\nOptions: (A) complex (B) compound-complex (C) compound (D) simple",
+        "choices": [
+            "complex",
+            "compound-complex",
+            "compound",
+            "simple"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "A",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "grammar",
+            "category": "Phrases and clauses",
+            "skill": "Is the sentence simple, compound, complex, or compound-complex?"
+        },
+        "pid": "11280"
+    },
+    {
+        "Question": "Which type of sentence is this?\nSince 1923, the United States Flag Code has provided advisory rules for displaying and handling the U.S. flag.\nOptions: (A) complex (B) simple (C) compound (D) compound-complex",
+        "choices": [
+            "complex",
+            "simple",
+            "compound",
+            "compound-complex"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "grammar",
+            "category": "Phrases and clauses",
+            "skill": "Is the sentence simple, compound, complex, or compound-complex?"
+        },
+        "pid": "4483"
+    },
+    {
+        "Question": "Which logical fallacy is used in the text?\nI pulled Harry off the project because his work was sloppy. While we're at it, let's pull Grace off the project, too. I haven't reviewed her work, but she's friends with Harry, so we cannot rely on the quality of her work either.\nOptions: (A) false dichotomy: an argument that presents only two choices when more options exist (B) guilt by association: a negative association intended to discredit someone or something (C) straw man: a misrepresentation of an opponent's position that makes it easier to argue against",
+        "choices": [
+            "false dichotomy: an argument that presents only two choices when more options exist",
+            "guilt by association: a negative association intended to discredit someone or something",
+            "straw man: a misrepresentation of an opponent's position that makes it easier to argue against"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 10,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Developing and supporting arguments",
+            "skill": "Classify logical fallacies"
+        },
+        "pid": "9247"
+    },
+    {
+        "Question": "Which text uses the word nauseous in its traditional sense?\nOptions: (A) The odor emanating from the landfill made Wendy so nauseous that she had to roll up the car windows as she drove past. (B) Wendy couldn't tolerate the nauseous odor emanating from the landfill, so she rolled up her car windows as she drove past.",
+        "choices": [
+            "The odor emanating from the landfill made Wendy so nauseous that she had to roll up the car windows as she drove past.",
+            "Wendy couldn't tolerate the nauseous odor emanating from the landfill, so she rolled up her car windows as she drove past."
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "writing-strategies",
+            "category": "Word usage and nuance",
+            "skill": "Explore words with new or contested usages"
+        },
+        "pid": "10457"
+    },
+    {
+        "Question": "Which figure of speech is used in this text?\nAlthough Fred hasn't worked in years, his mother prefers to say that he's between jobs right now.\nOptions: (A) paradox (B) euphemism",
+        "choices": [
+            "paradox",
+            "euphemism"
+        ],
+        "caption": "no img",
+        "orc": "no img",
+        "Answer": "B",
+        "metadata": {
+            "has_image": false,
+            "grade": 12,
+            "subject": "language science",
+            "topic": "figurative-language",
+            "category": "Literary devices",
+            "skill": "Classify the figure of speech: euphemism, hyperbole, oxymoron, paradox"
+        },
+        "pid": "20674"
+    }
+]
