@@ -1,11 +1,18 @@
-from prompt import (
-    DATA_GEN_SYSTEM_PROMPT,
-    HOTPOTQA_TASK_NAME,
-    HOTPOTQA_TASK_DESCRIPTION,
-    SCIENCEQA_TASK_NAME,
-    SCIENCEQA_TASK_DESCRIPTION,
-    SCIENCEQA_DATA_GEN_HUMAN_PROMPT,
-    HOTPOTQA_DATA_GEN_HUMAN_PROMPT
-)
-system_prompt = DATA_GEN_SYSTEM_PROMPT
-print(system_prompt.format(task_name = HOTPOTQA_TASK_NAME, task_description = HOTPOTQA_TASK_DESCRIPTION))
+import json
+import os
+path = "test.json"
+def save_to_json(data,path):
+    if os.path.exists(path) and os.path.getsize(path) > 0:
+        with open(path, 'r') as file:
+            ori_data = json.load(file)
+    else:
+        ori_data = []
+    with open(path, 'w') as file:
+        data = ori_data+data
+        json.dump(data, file,indent=4)
+for i in range(10):
+    data=[{"a":i}]
+    save_to_json(data,path)
+for i in range(11,20):
+    data=[{"a":i}]
+    save_to_json(data,path)

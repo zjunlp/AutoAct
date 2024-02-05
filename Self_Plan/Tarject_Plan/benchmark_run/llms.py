@@ -82,7 +82,8 @@ class langchain_fastchat_llm:
         )
         self.llm_name = llm_name
         
-    def run(self, prompt, temperature=0.7, stop=['\n'], max_tokens=256):
+    def run(self, prompt, temperature=0.5, stop=['\n'], max_tokens=256):
+        print("*********temperature0.5***********************")
         llm = OpenAI(
             model=self.llm_name,
             temperature=temperature,

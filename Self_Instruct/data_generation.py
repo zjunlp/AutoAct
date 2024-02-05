@@ -1,5 +1,5 @@
 import argparse
-from AutoAct.MetaAgent.prompt import (
+from pre_prompt import (
     DATA_GEN_SYSTEM_PROMPT,
     HOTPOTQA_TASK_NAME,
     HOTPOTQA_TASK_DESCRIPTION,
@@ -8,11 +8,11 @@ from AutoAct.MetaAgent.prompt import (
     SCIENCEQA_DATA_GEN_HUMAN_PROMPT,
     HOTPOTQA_DATA_GEN_HUMAN_PROMPT
 )
-from AutoAct.MetaAgent.agent import MetaAgent
+from llms import MetaAgent
 import json
 import random
 import re
-
+import os
 def get_data_hotpotqa(source_data):
     data=json.load(open(source_data))
     data=[{"Question":d['Question'],"Answer":d['Answer']} for d in data]
@@ -76,8 +76,14 @@ def parse_ouput_hotpotqa(output):
         })
     return new_qa_pairs
 def save_to_json(data,path):
+    if os.path.exists(path) and os.path.getsize(path) > 0:
+        with open(path, 'r') as file:
+            ori_data = json.load(file)
+    else:
+        ori_data = []
     with open(path, 'w') as file:
-        json.dump(data, file)
+        data = data+ori_data
+        json.dump(data, file,indent=4)
         
 def main(args):
     data_system_prmpt = DATA_GEN_SYSTEM_PROMPT
@@ -127,23 +133,24 @@ def main(args):
             update_prompt=False
         )
         print(output)
+        data_list = []
         if(args.dataset_name == "hotpotqa"):
             for new_pair in parse_ouput_hotpotqa(output):
                 print(new_pair,'\n')
                 if new_pair["Answer"] not in answer_set and len(new_pair["Answer"])<20:
                     unique_qa.append(new_pair)
                     answer_set.add(new_pair["Answer"])
-                    # save_to_json(new_pair,args.target_data)
+                    data_list.append(new_pair)
+            save_to_json(data_list,args.target_data)
         else:
             for new_pair in parse_ouput_scienceqa(output):
                 print(new_pair,'\n')
                 if new_pair["Answer"].split(' ')[1] not in answer_set :
                     unique_qa.append(new_pair)
                     answer_set.add(new_pair["Answer"].split(' ')[1])
-                    # save_to_json(new_pair,args.target_data)
-    
+                    data_list.append(new_pair)
+            save_to_json(data_list,args.target_data)
             
-    save_to_json(unique_qa[:args.generate_all_num],args.target_data)
 
             
         

@@ -33,6 +33,8 @@ action_agent = args.action_agent
 reflect_agent = args.reflect_agent
 max_context_len = args.max_context_len 
 save_path = args.save_path
+if save_path[-1] != "/":
+    save_path += "/"
 task_path = args.task_path
 assert agent_name in available_agent_names
 
@@ -41,7 +43,7 @@ def process_agent_run_step(agent):
 
 def run_one_complex_level_hotpotqa(level="easy"):
     hotpot = joblib.load(f'{task_path}/{level}.joblib').reset_index(drop = True)
-    agent_save_file = save_path
+    agent_save_file = f"{save_path}{level}.jsonl"
     task_instructions = [(row['question'], row['answer']) for _, row in hotpot.iterrows()]
     if os.path.exists(agent_save_file):
         sessions = utils.get_all_agent_sessions(agent_save_file)
@@ -63,7 +65,7 @@ def run_one_complex_level_hotpotqa(level="easy"):
 def run_one_complex_level_scienceqa(level="1-4"):
     f = open(f'{task_path}/format_scienceqa_grade{level}.json')
     scienceqa = json.load(f)
-    agent_save_file = save_path
+    agent_save_file = f"{save_path}{level}.jsonl"
     task_instructions = [(row['Question'],row['choices'],row['Answer'],row['orc'],row['caption']) for row in scienceqa]
     if os.path.exists(agent_save_file):
         sessions = utils.get_all_agent_sessions(agent_save_file)
