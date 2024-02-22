@@ -1,36 +1,0 @@
-2024-01-28 15:25:03 | INFO | model_worker | args: Namespace(host='localhost', port=31021, worker_address='http://localhost:31021', controller_address='http://localhost:21001', model_path='/data/qiaoshuofei/PLMs/13b-chat', revision='main', device='cuda', gpus=None, num_gpus=2, max_gpu_memory='31Gib', dtype='float16', load_8bit=False, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, awq_ckpt=None, awq_wbits=16, awq_groupsize=-1, enable_exllama=False, exllama_max_seq_len=4096, exllama_gpu_split=None, exllama_cache_8bit=False, enable_xft=False, xft_max_seq_len=4096, xft_dtype=None, model_names=['llama-2-7b-chat'], conv_template=None, embed_in_truncate=False, limit_worker_concurrency=5, stream_interval=2, no_register=False, seed=None, debug=False, ssl=False)
-2024-01-28 15:25:03 | INFO | model_worker | Loading the model ['llama-2-7b-chat'] on worker 793c9082 ...
-2024-01-28 15:25:03 | ERROR | stderr | Loading checkpoint shards:   0%|                                                                                             | 0/3 [00:00<?, ?it/s]
-2024-01-28 15:25:13 | ERROR | stderr | Loading checkpoint shards:  33%|████████████████████████████▎                                                        | 1/3 [00:09<00:19,  9.80s/it]
-2024-01-28 15:25:20 | ERROR | stderr | Loading checkpoint shards:  33%|████████████████████████████▎                                                        | 1/3 [00:16<00:33, 16.66s/it]
-2024-01-28 15:25:20 | ERROR | stderr | 
-2024-01-28 15:25:20 | ERROR | stderr | Traceback (most recent call last):
-2024-01-28 15:25:20 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/runpy.py", line 197, in _run_module_as_main
-2024-01-28 15:25:20 | ERROR | stderr |     return _run_code(code, main_globals, None,
-2024-01-28 15:25:20 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/runpy.py", line 87, in _run_code
-2024-01-28 15:25:20 | ERROR | stderr |     exec(code, run_globals)
-2024-01-28 15:25:20 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/fastchat/serve/model_worker.py", line 375, in <module>
-2024-01-28 15:25:20 | ERROR | stderr |     args, worker = create_model_worker()
-2024-01-28 15:25:20 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/fastchat/serve/model_worker.py", line 346, in create_model_worker
-2024-01-28 15:25:20 | ERROR | stderr |     worker = ModelWorker(
-2024-01-28 15:25:20 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/fastchat/serve/model_worker.py", line 77, in __init__
-2024-01-28 15:25:20 | ERROR | stderr |     self.model, self.tokenizer = load_model(
-2024-01-28 15:25:20 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/fastchat/model/model_adapter.py", line 348, in load_model
-2024-01-28 15:25:20 | ERROR | stderr |     model, tokenizer = adapter.load_model(model_path, kwargs)
-2024-01-28 15:25:20 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/fastchat/model/model_adapter.py", line 95, in load_model
-2024-01-28 15:25:20 | ERROR | stderr |     model = AutoModelForCausalLM.from_pretrained(
-2024-01-28 15:25:20 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py", line 566, in from_pretrained
-2024-01-28 15:25:20 | ERROR | stderr |     return model_class.from_pretrained(
-2024-01-28 15:25:20 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/transformers/modeling_utils.py", line 3706, in from_pretrained
-2024-01-28 15:25:20 | ERROR | stderr |     ) = cls._load_pretrained_model(
-2024-01-28 15:25:20 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/transformers/modeling_utils.py", line 4116, in _load_pretrained_model
-2024-01-28 15:25:20 | ERROR | stderr |     new_error_msgs, offload_index, state_dict_index = _load_state_dict_into_meta_model(
-2024-01-28 15:25:20 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/transformers/modeling_utils.py", line 778, in _load_state_dict_into_meta_model
-2024-01-28 15:25:20 | ERROR | stderr |     set_module_tensor_to_device(model, param_name, param_device, **set_module_kwargs)
-2024-01-28 15:25:20 | ERROR | stderr |   File "/root/anaconda3/envs/langchain/lib/python3.9/site-packages/accelerate/utils/modeling.py", line 317, in set_module_tensor_to_device
-2024-01-28 15:25:20 | ERROR | stderr |     new_value = value.to(device)
-2024-01-28 15:25:20 | ERROR | stderr | RuntimeError: CUDA error: invalid device ordinal
-2024-01-28 15:25:20 | ERROR | stderr | CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
-2024-01-28 15:25:20 | ERROR | stderr | For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
-2024-01-28 15:25:20 | ERROR | stderr | Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
-2024-01-28 15:25:20 | ERROR | stderr | 
