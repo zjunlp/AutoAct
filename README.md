@@ -30,7 +30,7 @@
 
 ## 🌻Acknowledgement
 
-Our code of training module is referenced and adapted from [FastChat](https://github.com/lm-sys/FastChat), while the code of inference module is implemented based on [BOLAA](https://github.com/salesforce/BOLAA). Various baseline codes use [ReAct](https://github.com/ysymyth/ReAct), [Reflexion](https://github.com/noahshinn/reflexion), [BOLAA](https://github.com/salesforce/BOLAA), [Chameleon](https://github.com/lupantech/chameleon-llm), [ReWOO](https://github.com/billxbf/ReWOO), [FireAct](https://github.com/anchen1011/FireAct) respectively. Thanks for their great contributions!
+Our code of training module is referenced and adapted from [FastChat](https://github.com/lm-sys/FastChat), while the code of inference module is implemented based on [BOLAA](https://github.com/salesforce/BOLAA). Various baseline codes use [ReAct](https://github.com/ysymyth/ReAct), [Reflexion](https://github.com/noahshinn/reflexion), [BOLAA](https://github.com/salesforce/BOLAA), [Chameleon](https://github.com/lupantech/chameleon-llm), [ReWOO](https://github.com/billxbf/ReWOO), [FireAct](https://github.com/anchen1011/FireAct) respectively. We use LangChain with open models via [Fastchat](https://github.com/lm-sys/FastChat/blob/main/docs/langchain_integration.md). Thanks for their great contributions!
 
 
 
