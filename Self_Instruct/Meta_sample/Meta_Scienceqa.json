@@ -1,0 +1,30 @@
+[
+    {
+        "Question": "Which of these states is farthest north?\nOptions: (A) West Virginia (B) Louisiana (C) Arizona (D) Oklahoma",
+        "caption": "An aerial view of a painting of a forest.",
+        "orc": "[([[307, 253], [361, 253], [361, 265], [307, 265]], 'Oklahoma', 0.7105310102042172), ([[623, 261], [691, 261], [691, 275], [623, 275]], 'West Virginia', 0.9675798036138213), ([[153, 281], [193, 281], [193, 293], [153, 293]], 'Arizona', 0.9426240560831896), ([[365, 319], [419, 319], [419, 333], [365, 333]], 'Louisiana', 0.9964687228131679)]",
+        "Answer": "A. West Virginia",
+        "metadata": {
+            "has_image": true,
+            "grade": 2,
+            "subject": "social science",
+            "topic": "geography",
+            "category": "Geography",
+            "skill": "Read a map: cardinal directions"
+        }
+    },
+    {
+        "Question": "Identify the question that Tom and Justin's experiment can best answer.\n\nContext: The passage below describes an experiment. Read the passage and then follow the instructions below.\n\nTom placed a ping pong ball in a catapult, pulled the catapult's arm back to a 45\u00b0 angle, and launched the ball. Then, Tom launched another ping pong ball, this time pulling the catapult's arm back to a 30\u00b0 angle. With each launch, his friend Justin measured the distance between the catapult and the place where the ball hit the ground. Tom and Justin repeated the launches with ping pong balls in four more identical catapults. They compared the distances the balls traveled when launched from a 45\u00b0 angle to the distances the balls traveled when launched from a 30\u00b0 angle.\nFigure: a catapult for launching ping pong balls.\n\nOptions: (A) Do ping pong balls stop rolling along the ground sooner after being launched from a 30\u00b0 angle or a 45\u00b0 angle? (B) Do ping pong balls travel farther when launched from a 30\u00b0 angle compared to a 45\u00b0 angle?",
+        "caption": "A wooden board with a wooden head on top of it.",
+        "orc": "[]",
+        "Answer": "B. Do ping pong balls travel farther when launched from a 30\u00b0 angle compared to a 45\u00b0 angle?",
+        "metadata": {
+            "has_image": true,
+            "grade": 8,
+            "subject": "natural science",
+            "topic": "science-and-engineering-practices",
+            "category": "Designing experiments",
+            "skill": "Identify the experimental question"
+        }
+    }
+]

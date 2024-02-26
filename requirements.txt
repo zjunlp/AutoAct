@@ -1,0 +1,6 @@
+langchain==0.0.299
+fschat==0.2.35
+transformers==4.36.2
+peft==0.5.0
+accelerate==0.23.0
+sentencepiece
