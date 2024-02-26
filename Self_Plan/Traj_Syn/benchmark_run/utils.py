@@ -171,7 +171,7 @@ def _validate_server(address):
 
 
 
-def call_bing_search(query, count, endpoint="https://api.bing.microsoft.com/v7.0/search", bing_api_key="7335f48a5ade4ed9941a24e4c19f1a3d"):
+def call_bing_search(query, count, endpoint="https://api.bing.microsoft.com/v7.0/search", bing_api_key=""):
     headers = {'Ocp-Apim-Subscription-Key': bing_api_key}
     params = {"q": query, "textDecorations": True,
               "textFormat": "HTML", "count": count, "mkt": "en-GB"}

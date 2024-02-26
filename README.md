@@ -4,10 +4,10 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2401.05268">📄arXiv</a> •
   <a href="https://huggingface.co/papers/2401.05268">🤗HFPaper</a> •
-  <a href="http://easydetect.openkg.cn/">🌐Web</a>
+  <a href="https://www.zjukg.org/project/AutoAct/">🌐Web</a>
 </p>
 
-[![Awesome](https://awesome.re/badge.svg)](https://github.com/zjunlp/AutoKG) 
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/zjunlp/AutoAct) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/github/last-commit/zjunlp/AutoAct?color=green) 
 
@@ -38,7 +38,7 @@ Our code of training module is referenced and adapted from [FastChat](https://gi
 
 Language agents have achieved considerable performance on various complex tasks. Despite the incessant exploration in this field, existing language agent systems still struggle with costly, non-reproducible data reliance and face the challenge of compelling a single model for multiple functions. To this end, we introduce **AutoAct**, an automatic agent learning framework that does not rely on large-scale annotated data and synthetic trajectories from closed-source models (e.g., GPT-4). Given limited data with a tool library, **AutoAct** first automatically synthesizes planning trajectories without any assistance from humans or strong closed-source models. Then, **AutoAct** leverages a *division-of-labor* strategy to automatically differentiate based on the target task information and synthesized trajectories, producing a sub-agent group to complete the task. We conduct comprehensive experiments with different LLMs, which demonstrates that **AutoAct** yields better or parallel performance compared to various strong baselines.
 
-<img src="/Users/qsf/work/academic/paper/ACL24/writing/method.gif" alt="method" style="zoom: 50%;" />
+<img src="./method.gif" alt="method" style="zoom: 50%;" />
 
 
 
