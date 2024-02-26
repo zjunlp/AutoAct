@@ -4,7 +4,7 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2401.05268">📄arXiv</a> •
   <a href="https://huggingface.co/papers/2401.05268">🤗HFPaper</a> •
-  <a href="http://easydetect.openkg.cn/">🌐Web</a>
+  <a href="https://www.zjukg.org/project/AutoAct/">🌐Web</a>
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/zjunlp/AutoAct) 
