@@ -1,9 +1,9 @@
-python ../Self_Plan/Tarject_Plan/run_eval.py \
+python Self_Planning/Group_Planning/run_eval.py \
     --agent_name ZeroshotThink_HotPotQA_run_Agent \
     --plan_agent plan \
-    --action_agent action \
+    --tool_agent tool \
     --reflect_agent reflect \
     --max_context_len 4096 \
-    --task Hotpotqa \
-    --task_path /data/rolnan/AutoAct/Self_Plan/Tarject_Plan/benchmark_run/data/hotpotqa \
-    --save_path ../Self_Plan/Tarject_Plan/output/13b/tem_0.5\
+    --task HotpotQA \
+    --task_path Self_Planning/Group_Planning/benchmark_run/data/hotpotqa \
+    --save_path Self_Planning/Group_Planning/output/13b

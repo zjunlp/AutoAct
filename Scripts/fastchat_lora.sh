@@ -1,23 +1,17 @@
-for epoch in 5
-do
-for data in hotpotqa
-do
-for agent in plan 
-do
-for ft_num in 300
+for agent in plan tool reflect
 do
 echo "####################"
-echo $agent $epoch $data
+echo $agent
 echo "####################"
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 deepspeed /data/rolnan/FastChat/fastchat/train/train_lora.py \
-    --model_name_or_path /PLMs/7b-chat \
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 deepspeed /Self-Planning/Train/train_lora.py \
+    --model_name_or_path llama-2-13b-chat \
     --lora_r 8 \
     --lora_alpha 16 \
     --lora_dropout 0.05 \
-    --data_path /data/rolnan/scripts/train_data/70b/hotpotqa/ft_num/$ft_num/data_$agent.json \
-    --output_dir ./lora/$data/7b-from_70_$ft_num-$data-$agent-$epoch-epoch \
-    --num_train_epochs $epoch \
-    --per_device_train_batch_size 1 \
+    --data_path Self_Planning/Traj_Syn/output/data_$agent.json \
+    --output_dir /Self-Planning/Train/lora/HotpotQA/13b-$agent-5-epoch \
+    --num_train_epochs 5 \
+    --per_device_train_batch_size 2 \
     --per_device_eval_batch_size 1 \
     --gradient_accumulation_steps 1 \
     --evaluation_strategy "no" \
@@ -35,7 +29,4 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 deepspeed /data/rolnan/FastChat/fastchat/tr
     --q_lora False \
     --deepspeed playground/deepspeed_config_s3.json \
     --resume_from_checkpoint False 
-done
-done
-done
 done
