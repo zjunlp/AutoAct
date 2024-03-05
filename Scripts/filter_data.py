@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser(description='Parsing the file_path to filter an
 parser.add_argument("--source_path", type=str, help="source data path")
 parser.add_argument("--save_path", type=str, help="path to save data")
 parser.add_argument("--task_name", type=str, help="task name")
-parser.add_argument("--filter_num", type=str, help="filter num")
+parser.add_argument("--filter_num", type=int, help="filter num")
 args = parser.parse_args()
 systemprompt_hotpotqa = """I want you to be a good multi-hop question answerer ,solving a question answering task with interleaving Thought, Action, Observation steps. Thought can reason about the current situation, and Action can be five types : 
 (1) BingSearch[query], which search the exact detailed query on the Internet and returns the relevant information to the query. Be specific and precise with your query to increase the chances of getting relevant results. For example, instead of searching for "dogs," you can search for "popular dog breeds in the United States."For example, BingSearch[Which type of computer networking technology, developed in the 1970s, allows devices to communicate over a shared network]
