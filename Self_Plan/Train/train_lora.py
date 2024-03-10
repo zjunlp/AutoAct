@@ -33,7 +33,6 @@ import torch
 from .train import (
     DataArguments,
     ModelArguments,
-    make_supervised_data_module,
     rank0_print
 )
 
