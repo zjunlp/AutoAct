@@ -93,21 +93,21 @@ The information of the selected tools will be stored in `tool_save_path`.
 ### Trajectories Synthesis
 
 ```bash
-python Self_Planning/Traj_Syn/run_task.py \
+python Self_Plan/Traj_Syn/run_task.py \
     --agent_name ZeroshotThink_HotPotQA_run_Agent \
     --llm_name llama-2-13b-chat \
     --max_context_len 4096 \
     --task Hotpotqa \
     --task_path Self_Instruct/hotpotqa_metaqa.json \
-    --save_path Self_Planning/Traj_Syn/output/hotpotqa_train_data.jsonl
+    --save_path Self_Plan/Traj_Syn/output/hotpotqa_train_data.jsonl
 ```
 
 In order to obtain high-quality synthesized trajectories, we filter out all the trajectories with $\texttt{reward}<1$ and collect trajectories with exactly correct answers ($\texttt{reward}=1$) as the training source for self-differentiation. We release the trajectories synthesized by Llama-{13,70}b-chat after filtering in [Google Drive](https://drive.google.com/drive/folders/1Sh6Ksj8T0fT23ePWRf_dDcOTmpZlulr2?usp=sharing) (but you should also run `filter_data.py` for trajectory differentiation).
 
 ```bash
 python Scripts/filter_data.py \
-    --source_path Self_Planning/Traj_Syn/output/hotpotqa_train_data.jsonl \
-    --save_path Self_Planning/Traj_Syn/output \
+    --source_path Self_Plan/Traj_Syn/output/hotpotqa_train_data.jsonl \
+    --save_path Self_Plan/Traj_Syn/output \
     --task_name HotpotQA \
     --filter_num 200
 ```
@@ -130,13 +130,13 @@ do
 echo "####################"
 echo $agent
 echo "####################"
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 deepspeed /Self-Planning/Train/train_lora.py \
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 deepspeed Self_Plan/Train/train_lora.py \
     --model_name_or_path llama-2-13b-chat \
     --lora_r 8 \
     --lora_alpha 16 \
     --lora_dropout 0.05 \
-    --data_path Self_Planning/Traj_Syn/output/data_$agent.json \
-    --output_dir /Self-Planning/Train/lora/HotpotQA/13b-$agent-5-epoch \
+    --data_path Self_Plan/Traj_Syn/output/data_$agent.json \
+    --output_dir Self_Plan/Train/lora/HotpotQA/13b-$agent-5-epoch \
     --num_train_epochs 5 \
     --per_device_train_batch_size 2 \
     --per_device_eval_batch_size 1 \
@@ -154,7 +154,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 deepspeed /Self-Planning/Train/train_lora.p
     --model_max_length 4096 \
     --gradient_checkpointing True \
     --q_lora False \
-    --deepspeed playground/deepspeed_config_s3.json \
+    --deepspeed Self_Plan/Train/deepspeed_config_s3.json \
     --resume_from_checkpoint False 
 done
 ```

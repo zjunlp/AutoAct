@@ -3,13 +3,13 @@ do
 echo "####################"
 echo $agent
 echo "####################"
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 deepspeed /Self-Planning/Train/train_lora.py \
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 deepspeed Self_Plan/Train/train_lora.py \
     --model_name_or_path llama-2-13b-chat \
     --lora_r 8 \
     --lora_alpha 16 \
     --lora_dropout 0.05 \
-    --data_path Self_Planning/Traj_Syn/output/data_$agent.json \
-    --output_dir /Self-Planning/Train/lora/HotpotQA/13b-$agent-5-epoch \
+    --data_path Self_Plan/Traj_Syn/output/data_$agent.json \
+    --output_dir Self_Plan/Train/lora/HotpotQA/13b-$agent-5-epoch \
     --num_train_epochs 5 \
     --per_device_train_batch_size 2 \
     --per_device_eval_batch_size 1 \
@@ -27,6 +27,6 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 deepspeed /Self-Planning/Train/train_lora.p
     --model_max_length 4096 \
     --gradient_checkpointing True \
     --q_lora False \
-    --deepspeed playground/deepspeed_config_s3.json \
+    --deepspeed Self_Plan/Train/deepspeed_config_s3.json \
     --resume_from_checkpoint False 
 done
