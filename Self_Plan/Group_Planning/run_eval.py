@@ -11,15 +11,12 @@ from benchmark_run.llms import get_llm_backend
 from benchmark_run.config import available_agent_names
 import json
 
-# os.environ["https_proxy"] = "http://127.0.0.1:7890"
-S_model = "13"
-T_model = "70"
-ft_num=300
+
 parser = argparse.ArgumentParser(description='Parsing the input of agents, llms and llm context length.')
 parser.add_argument("--agent_name", type=str, help="Name of the agent.", default="ZeroshotThink_HotPotQA_run_Agent")
-parser.add_argument("--plan_agent", type=str, help="Name of the plan", default=f"{S_model}b_from_{T_model}b_{ft_num}_plan_peft")
-parser.add_argument("--action_agent", type=str, help="Name of the action", default=f"{S_model}b_from_{T_model}b_{ft_num}_action_peft")
-parser.add_argument("--reflect_agent", type=str, help="Name of the reflect_agent", default=f"{S_model}b_from_{T_model}b_{ft_num}_reflect_peft")
+parser.add_argument("--plan_agent", type=str, help="Name of the plan", default="plan_peft")
+parser.add_argument("--action_agent", type=str, help="Name of the action", default="action_peft")
+parser.add_argument("--reflect_agent", type=str, help="Name of the reflect_agent", default="reflect_peft")
 parser.add_argument("--max_context_len", type=int, help="Maximum context length", default=4096)
 parser.add_argument("--task",type=str ,help="task name",default="Hotpotqa")
 parser.add_argument("--task_path",type=str,help="task path")

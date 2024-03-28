@@ -11,11 +11,10 @@ from benchmark_run.llms import get_llm_backend
 from benchmark_run.config import available_agent_names
 import json
 
-# os.environ["https_proxy"] = "http://127.0.0.1:7890"
 
 parser = argparse.ArgumentParser(description='Parsing the input of agents, llms and llm context length.')
 parser.add_argument("--agent_name", type=str, help="Name of the agent.", default="ZeroshotThink_HotPotQA_run_Agent")
-parser.add_argument("--llm_name", type=str, help="Name of the llm", default="llama-2-13b-merge")
+parser.add_argument("--llm_name", type=str, help="Name of the llm", default="llama-2-13b")
 parser.add_argument("--max_context_len", type=int, help="Maximum context length", default=4096)
 parser.add_argument("--task",type=str ,help="task name",default="Hotpotqa")
 parser.add_argument("--task_path",type=str,help="task path")
