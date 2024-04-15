@@ -1,5 +1,5 @@
 <h1 align="center"> AutoAct </h1>
-<h3 align="center"> Automatic Agent Learning from Scratch via Self-Planning </h3>
+<h3 align="center"> Automatic Agent Learning from Scratch for QA via Self-Planning </h3>
 
 <p align="center">
   <a href="https://arxiv.org/abs/2401.05268">📄arXiv</a> •
