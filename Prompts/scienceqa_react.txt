@@ -1,0 +1,44 @@
+Solve a question answering task with interleaving Thought, Action, Observation steps. Thought can reason about the current situation, and Action can be the following types: 
+(1) search[question], which searches a question on Bing and returns a short snippet containing the answer. Note that sometimes the snippet does not contain the answer, and some alternative search might be needed.
+(2) image2text[image], which generates captions for the image and detects words in the image.You are recommand to use it first to get more information about the imgage to the question. If the questions contains image, it will return catption and ocr text, else, it will return None.
+(3) retrieve[background], which retrieves background knowledge as the hint for the given question. Normally, we consider using this action when the llm generated background knowledge is helpful to guide the solution.
+(2) finish[answer], which returns the answer and finishes the task.
+The observation closely follows the action and is the result of the action. The trajectory is composed of a cycle of thought, action, and observation.
+Here are some examples.
+
+Question: Which type of relationship is formed when a feather mite lives on a barn swallow's feathers?
+Options: (A) parasitic (B) mutualistic (C) commensal
+Metadata: {'has_image': True, 'grade': 7, 'subject': 'natural science', 'topic': 'biology', 'category': 'Ecological interactions', 'skill': 'Classify symbiotic relationships'}
+Thought: I need to learn the background knowledge. 
+Action: retrieve[background]
+Observation: A parasitic relationship is a type of symbiotic interaction where one organism benefits at the expense of another, often causing harm or detriment to the host organism. A mutualistic relationship is a type of symbiotic interaction where both organisms involved benefit from each other's presence, often contributing to each other's survival and well-being. A commensal relationship is a type of symbiotic interaction where one organism benefits from the association with another, while the other is neither helped nor harmed.
+Thought: I need to learn the relationship between feather mites and barn swallows
+Action: search[the relationship between feather mites and barn swallows]
+Observation: the relationship between feather mites and barn swallows is a commensal one
+Thought: I find the answer.
+Action: finish[C]
+
+Question: Which material is this screw driver made of?
+Options: (A) cardboard (B) plastic
+Metadata: {'pid': 264, 'has_image': True, 'grade': 2, 'subject': 'natural science', 'topic': 'physics', 'category': 'Materials', 'skill': 'Identify multiple materials in objects'} 
+Thought: I need to get the content of the image to determine the answer.
+Action: image2text[image]
+Observation: Image: A yellow and black fork sticking out of a yellow frisbee.
+Thought: It seems there is a mismatch between the question and the provided image. I need to get more background knowledge.
+Action: retrieve[screwdriver]
+Observation: Screwdrivers are commonly made of steel for the shaft and tip, with plastic or rubber handles, and are used for various applications including assembling electronics, woodworking, automotive repair, construction, and DIY home projects. Cardboard is a lightweight, durable, and versatile material often used for packaging, crafts, and construction due to its affordability and recyclability. Plastic is a synthetic material known for its durability, versatility, and resistance to corrosion, making it widely used in manufacturing, packaging, construction, and various consumer products.
+Thought: Based on the above information, it is harder plastic that is used to manufacture the screw driver. I have my answer.
+Action: finish[B]
+
+Question: Which animal's skin is better adapted as a warning sign to ward off predators?
+Image: A yellow and black fire hydrant sitting on top of a rock.
+Options: (A) blue poison dart frog (B) gray tree frog
+Metadata: {'has_image': True, 'grade': 4, 'subject': 'natural science', 'topic': 'biology', 'category': 'Adaptations', 'skill': 'Animal adaptations: skins and body coverings'}
+Thought: I need to search for the function of the skin of tree frogs and the function of the skin of blue poison dart frogs, and analyze which animal's skin has more of a warning effect.
+Action: search[the function of the skin of tree frogs]
+Observation: The skin of tree frogs serves as a respiratory organ, helps maintain water balance, and contains toxins that act as a defense mechanism against predators.
+Thought: Tree frog's skin doesn't serve as a warning to the enemy. I need to search for the function of the skin of blue poison dart frogs.
+Action: search[the function of the skin of blue poison dart frogs]
+Observation: The bright blue color of this frog's skin warns predators not to eat it
+Thought: I find the answer.
+Action: finish[B]

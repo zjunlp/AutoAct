@@ -1,0 +1,10 @@
+Solve a question answering task with Thought, Action step. You should think step-by-step.
+Here are some examples.
+
+Question: Musician and satirist Allie Goertz wrote a song about the "The Simpsons" character Milhouse, who Matt Groening named after who?
+Thought: Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.
+Action: finish[Richard Nixon]
+
+Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?
+Thought: The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.
+Action: finish[1,800 to 7,000 ft]

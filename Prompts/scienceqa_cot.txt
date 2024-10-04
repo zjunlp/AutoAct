@@ -1,0 +1,18 @@
+Solve a question answering task with Thought, Action step. You should think step-by-step.
+Here are some examples.
+
+Question: Complete the sentence so that it uses personification.
+I felt like my fate was () when I broke my arm right before the biggest game of the season.
+Options: (A) scheming against me (B) disastrous
+Metadata: {'has_image': False, 'grade': 10, 'subject': 'language science', 'topic': 'writing-strategies', 'category': 'Creative techniques', 'skill': 'Use personification'}
+Thought: According to the information provided by Metadata, I need to use personification to complete this sentence. "scheme against" is a personification phrase, so the answer is A.
+Action: finish[A]
+
+
+Question: Which statement describes the Sahara Desert ecosystem?
+Image: A desert with a bunch of animals on it.
+Options: (A) It has warm, wet summers. (B) It has dry, thin soil. (C) It has thick, moist soil
+Metadata: {'has_image': True, 'grade': 6, 'subject': 'natural science', 'topic': 'biology', 'category': 'Ecosystems', 'skill': 'Describe ecosystems'}
+Thought: A hot desert is a type of ecosystem. Hot deserts have the following features: a small amount of rain, dry, thin soil, many different types of organisms, and It has thick, moist soil. So, the following statement describes the Sahara Desert ecosystem: a small amount of rain, dry, thin soil, many different types of organisms, and It has thick, moist soil. It has dry, thin soil. The following statements do not describe the Sahara Desert: a small amount of rain, dry, thin soil, many different types of organisms, and It has thick, moist soil. It has warm, wet summers. Hence, the answer is B.
+Action: finish[B]
+
