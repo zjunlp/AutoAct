@@ -50,7 +50,7 @@ cd AutoAct
 pip install -r requirements.txt
 ```
 
-
+Before the experiments, you need to apply for a Bing Search key [here](https://www.microsoft.com/en-us/bing/apis/bing-web-search-api) (not free).
 
 ## ✏️Self-Instruct
 
